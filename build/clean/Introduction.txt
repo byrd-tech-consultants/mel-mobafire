@@ -1,0 +1,27 @@
+[table border="3px solid #FF8C00" border-radius="8px" cellpadding="0" cellspacing="0" width="99%" style="margin-right: 5px; max-width: 700px;"]
+[tr]
+[td bgcolor="#3d2914" align="center"]
+[anchor=Introduction][img width="100%" style="max-width: 650px;"]http://www.byrdonline.com/evandabank/src/Introduction.png[/img]
+[/td]
+[/tr]
+
+[tr]
+[td bgcolor="#3d2914" padding="20px 15px"]
+[responsive]
+[row align-items="stretch" justify-content="center"]
+[col max-width="160px" min-width="140px" bgcolor="#8B4513" padding="15px" margin="5px" border-radius="8px" border="3px solid #FF8C00"]
+[center][img width="100%"]http://www.byrdonline.com/evandabank/src/edbpfp.png[/img][/center]
+[/col]
+
+[col max-width="300px" min-width="230px" bgcolor="#8B4513" padding="15px" margin="5px" border-radius="8px" border="3px solid #FF8C00"]
+[size=3][color=#FFFF99]Hi, I'm [/color][color=#FF8C00][b]Evandabank[/b][/color][color=#FFFF99] and welcome to my [/color][color=#FFD700][b][[mel]][/b][/color][color=#FFFF99] guide. I've been playing LoL for [/color][color=#FF8C00][b]13 years[/b][/color][color=#FFFF99] now, since I was 7 years old. I started in [/color][color=#FFD700][b]Season 3[/b][/color][color=#FFFF99] & have successfully hit [/color][color=#FF8C00][b]Masters[/b][/color][color=#FFFF99] on every role. I'm currently [/color][color=#d8433e][b]GM[/b][/color][color=#FFFF99] on Bot and Mid. When it comes to [/color][color=#FFD700][b][[mel]][/b][/color][color=#FFFF99], since she was released, she quickly became one of my favorite champions due to her long range and oppressive agency. This guide will detail [/color][color=#FF8C00][b]EVERYTHING[/b][/color][color=#FFFF99] for Mel including [/color][color=#FF8C00][b]ALL[/b][/color][color=#FFFF99] of her matchups. This took countless hours and if you find it helpful, check out my other links for additional content.[/color][/size]
+[/col]
+[/row]
+[/responsive]
+
+[center][size=1][color=#FFFF99][i]Additional guide work and contributions by [/i][/color][color=#FF8C00][b]Apb718[/b][/color][/size][/center]
+[/td]
+[/tr]
+[/table]
+
+[center][size=5][color=#FF8C00][b]═══════════════════════════════════════════════════[/b][/color][/size][/center]

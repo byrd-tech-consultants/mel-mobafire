@@ -1,0 +1,29 @@
+[anchor='Credits']
+
+[table bgcolor="#3d2914" border="3px solid #FF8C00" border-radius="8px" cellpadding="0" cellspacing="0" width="99%" style="margin-right: 5px; max-width: 900px;"]
+[tr]
+[td bgcolor="#3d2914" align="center"]
+[img width="100%" style="max-width: 850px;"]http://www.byrdonline.com/evandabank/src/Credits.png[/img]
+[/td]
+[/tr]
+
+[tr]
+[td padding="20px 15px"]
+[table border="3px solid #FF8C00" border-radius="8px" cellspacing="0" cellpadding="0" width="100%"]
+[tr]
+[td bgcolor="#654321" border="2px solid #FF8C00" padding="20px"]
+[center][size=14][color=#FFFF99]
+I'd like to thank my good friend [b][color=#FFD700]Alec[/color][/b] for taking the time to code this entire guide [b]FROM SCRATCH[/b]. I couldn't have created this product without him and I'm extremely proud of what we have created together.
+
+[size=12]For questions or feedback, feel free to reach out: [url=mailto:apb718@gmail.com][color=#FF8C00][b]apb718@gmail.com[/b][/color][/url][/size]
+[/color][/size][/center]
+[/td]
+[/tr]
+[/table]
+[/td]
+[/tr]
+[/table]
+
+[goto="Table of Contents"]Go to Top[/goto]
+
+[center][size=5][color=#FF8C00][b]═══════════════════════════════════════════════════[/b][/color][/size][/center]

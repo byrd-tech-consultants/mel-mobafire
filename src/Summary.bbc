@@ -1,27 +1,38 @@
+[anchor='Summary']
 
-[anchor=Summary]
-[center][img]http://www.byrdonline.com/evandabank/src/Summary.png[/img][/center]
+[table bgcolor="#3d2914" border="3px solid #FF8C00" border-radius="8px" cellpadding="0" cellspacing="0" width="99%" style="margin-right: 5px; max-width: 900px;"]
+	[tr]
+		[td bgcolor="#3d2914" align="center"]
+			[img width="100%" style="max-width: 850px;"]http://www.byrdonline.com/evandabank/src/Summary.png[/img]
+		[/td]
+	[/tr]
 
-[table height=10]
-[/table]
+	[tr]
+		[td padding="20px 15px"]
+			[table border="3px solid #FF8C00" border-radius="8px" cellspacing="0" cellpadding="0" width="100%"]
+				[tr]
+					[td bgcolor="#654321" border="2px solid #FF8C00" padding="20px"]
+						[center][size=14][color=#FFFF99]
+							[b][color=#FFD700]Hooray![/color][/b] You've reached the end of this extremely long guide on [[Mel]]. I hope you enjoyed and learned something about the game/champion. The goal was to create something that taught the fundamentals of the game as well as the intricacies and unique abilities of [[Mel]].
+							If I hit the mark, please leave an [b][color=#FF8C00]upvote[/color][/b] on the guide for my eternal gratitude. This guide took a lot of time to create, and if enough people express interest through [b][color=#FF8C00]upvotes/comments[/color][/b], I will happily create guides for other champions in the near future.
+							Feel free to [b]PM me here on Mobafire[/b] or message me on [b][color=#FFD700]Discord[/color][/b]. And finally, if you found this guide too insightful and are looking for more educational content, I'm in the process of starting and uploading to [b][color=#FF8C00]Patreon[/color][/b], which is the best way to support me if you so choose.
+							[size=16][color=#FFD700][b]Good luck out there on the rift![/b][/color][/size]
+						[/color][/size][/center]
+					[/td]
+				[/tr]
+			[/table]
+		[/td]
+	[/tr]
 
-[table border="3px solid #FF8C00" border-radius="8px" cellspacing="0" cellpadding="0" width="100%"]
-[tr]
-[td bgcolor="#654321" border="2px solid #FF8C00" padding="20px"]
-[center][size=14][color=#FFFF99]
-[b][color=#FFD700]Hooray![/color][/b] You've reached the end of this extremely long guide on [[Mel]]. I hope you enjoyed and learned something about the game/champion. The goal was to create something that taught the fundamentals of the game as well as the intricacies and unique abilities of [[Mel]].
-If I hit the mark, please leave an [b][color=#FF8C00]upvote[/color][/b] on the guide for my eternal gratitude. This guide took a lot of time to create, and if enough people express interest through [b][color=#FF8C00]upvotes/comments[/color][/b], I will happily create guides for other champions in the near future.
-Feel free to [b]PM me here on Mobafire[/b] or message me on [b][color=#FFD700]Discord[/color][/b]. And finally, if you found this guide too insightful and are looking for more educational content, I'm in the process of starting and uploading to [b][color=#FF8C00]Patreon[/color][/b], which is the best way to support me if you so choose.
-[size=16][color=#FFD700][b]Good luck out there on the rift![/b][/color][/size]
-[/color][/size][/center]
-[/td]
-[/tr]
-[/table]
-
-[table border="2px solid #FF8C00" border-radius="5px" cellpadding="15" cellspacing="0" width="100%"]
-[tr]
-[td bgcolor="#4a2c2a" align="center"][color=#FFFF99][i]"The more reflective you are, the more effective you are" - Hall & Simeral[/i][/color][/td]
-[/tr]
+	[tr]
+		[td padding="20px 15px"]
+			[table border="2px solid #FF8C00" border-radius="5px" cellpadding="15" cellspacing="0" width="100%"]
+				[tr]
+					[td bgcolor="#4a2c2a" align="center"][color=#FFFF99][i]"The more reflective you are, the more effective you are" - Hall & Simeral[/i][/color][/td]
+				[/tr]
+			[/table]
+		[/td]
+	[/tr]
 [/table]
 
 [goto="Table of Contents"]Go to Top[/goto]
