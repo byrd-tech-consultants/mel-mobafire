@@ -1,652 +1,95 @@
-[anchor="Matchups"]
-[center][img]http://www.byrdonline.com/evandabank/src/Matchups.png[/img][/center]
+[anchor='Matchups']
 
+[table bgcolor="#3d2914" border="3px solid #FF8C00" border-radius="8px" cellpadding="0" cellspacing="0" width="99%" style="margin-right: 5px; max-width: 900px;"]
+[tr]
+[td bgcolor="#3d2914" align="center"]
+[img width="100%" style="max-width: 850px;"]http://www.byrdonline.com/evandabank/src/Matchups.png[/img]
+[/td]
+[/tr]
+
+[tr]
+[td padding="20px 15px"]
 [table border="3px solid #FF8C00" border-radius="8px" cellpadding="0" cellspacing="0" width="100%"]
 [tr]
-[td bgcolor="#654321" padding="20px"][color=#FFFF99]
-[b]Table of Contents[/b]
+[td bgcolor="#654321" padding="20px"]
+[color=#FFFF99][b]Table of Contents[/b]
 
-[goto="Ahri"]Ahri[/goto] | [goto="Akali"]Akali[/goto] | [goto="Akshan"]Akshan[/goto] | [goto="Anivia"]Anivia[/goto] | [goto="Annie"]Annie[/goto] | [goto="Aurelion Sol"]Aurelion Sol[/goto] | [goto="Aurora"]Aurora[/goto] | [goto="Azir"]Azir[/goto] | [goto="Cassiopeia"]Cassiopeia[/goto] | [goto="Corki"]Corki[/goto] | [goto="Diana"]Diana[/goto] | [goto="Ekko"]Ekko[/goto] | [goto="Ezreal"]Ezreal[/goto] | [goto="Fizz"]Fizz[/goto] | [goto="Galio"]Galio[/goto] | [goto="Garen"]Garen[/goto] | [goto="Gragas"]Gragas[/goto] | [goto="Heimerdinger"]Heimerdinger[/goto] | [goto="Hwei"]Hwei[/goto] | [goto="Irelia"]Irelia[/goto] | [goto="Jayce"]Jayce[/goto] | [goto="Kai'sa"]Kai'Sa[/goto] | [goto="Karma"]Karma[/goto] | [goto="Kassadin"]Kassadin[/goto] | [goto="Katarina"]Katarina[/goto] | [goto="Kayle"]Kayle[/goto] | [goto="LeBlanc"]LeBlanc[/goto] | [goto="Lissandra"]Lissandra[/goto] | [goto="Lucian"]Lucian[/goto] | [goto="Lux"]Lux[/goto] | [goto="Malphite"]Malphite[/goto] | [goto="Malzahar"]Malzahar[/goto] | [goto="Morgana"]Morgana[/goto] | [goto="Naafiri"]Naafiri[/goto] | [goto="Neeko"]Neeko[/goto] | [goto="Orianna"]Orianna[/goto] | [goto="Pantheon"]Pantheon[/goto] | [goto="Qiyana"]Qiyana[/goto] | [goto="Rumble"]Rumble[/goto] | [goto="Ryze"]Ryze[/goto] | [goto="Smolder"]Smolder[/goto] | [goto="Swain"]Swain[/goto] | [goto="Sylas"]Sylas[/goto] | [goto="Syndra"]Syndra[/goto] | [goto="Taliyah"]Taliyah[/goto] | [goto="Talon"]Talon[/goto] | [goto="Tristana"]Tristana[/goto] | [goto="Tryndamere"]Tryndamere[/goto] | [goto="Twisted Fate"]Twisted Fate[/goto] | [goto="Veigar"]Veigar[/goto] | [goto="Vel'Koz"]Vel'Koz[/goto] | [goto="Vex"]Vex[/goto] | [goto="Viktor"]Viktor[/goto]
-[/color][/td]
+[goto="Ahri"]Ahri[/goto] | [goto="Akali"]Akali[/goto] | [goto="Akshan"]Akshan[/goto] | [goto="Anivia"]Anivia[/goto] | [goto="Annie"]Annie[/goto] | [goto="Aurelion Sol"]Aurelion Sol[/goto] | [goto="Aurora"]Aurora[/goto] | [goto="Azir"]Azir[/goto] | [goto="Cassiopeia"]Cassiopeia[/goto] | [goto="Corki"]Corki[/goto] | [goto="Diana"]Diana[/goto] | [goto="Ekko"]Ekko[/goto] | [goto="Ezreal"]Ezreal[/goto] | [goto="Fizz"]Fizz[/goto] | [goto="Galio"]Galio[/goto] | [goto="Garen"]Garen[/goto] | [goto="Gragas"]Gragas[/goto] | [goto="Heimerdinger"]Heimerdinger[/goto] | [goto="Hwei"]Hwei[/goto] | [goto="Irelia"]Irelia[/goto] | [goto="Jayce"]Jayce[/goto] | [goto="Kai'sa"]Kai'Sa[/goto] | [goto="Karma"]Karma[/goto] | [goto="Kassadin"]Kassadin[/goto] | [goto="Katarina"]Katarina[/goto] | [goto="Kayle"]Kayle[/goto] | [goto="LeBlanc"]LeBlanc[/goto] | [goto="Lissandra"]Lissandra[/goto] | [goto="Lucian"]Lucian[/goto] | [goto="Lux"]Lux[/goto] | [goto="Malphite"]Malphite[/goto] | [goto="Malzahar"]Malzahar[/goto] | [goto="Morgana"]Morgana[/goto] | [goto="Naafiri"]Naafiri[/goto] | [goto="Neeko"]Neeko[/goto] | [goto="Orianna"]Orianna[/goto] | [goto="Pantheon"]Pantheon[/goto] | [goto="Qiyana"]Qiyana[/goto] | [goto="Rumble"]Rumble[/goto] | [goto="Ryze"]Ryze[/goto] | [goto="Smolder"]Smolder[/goto] | [goto="Swain"]Swain[/goto] | [goto="Sylas"]Sylas[/goto] | [goto="Syndra"]Syndra[/goto] | [goto="Taliyah"]Taliyah[/goto] | [goto="Talon"]Talon[/goto] | [goto="Tristana"]Tristana[/goto] | [goto="Tryndamere"]Tryndamere[/goto] | [goto="Twisted Fate"]Twisted Fate[/goto] | [goto="Veigar"]Veigar[/goto] | [goto="Vel'Koz"]Vel'Koz[/goto] | [goto="Vex"]Vex[/goto] | [goto="Viktor"]Viktor[/goto][/color]
+[/td]
+[/tr]
+[/table]
+[/td]
+[/tr]
+
+[tr]
+[td padding="20px 15px"]
+[spoiler=Ahri][size=5][color=#FFD700][b][anchor=Ahri]Ahri[/b][/color][/size]
+
+[responsive]
+[row align-items="flex-start" justify-content="space-between"]
+[col width="550px" min-width="400px"]
+[size=4][color=#FFFF99][b]Matchup difficulty[/b][/color][/size]
+
+[size=1][color=#FFFF99] [/color][/size]
+
+[table border="2px solid #FF8C00" border-radius="8px" cellpadding="0" cellspacing="0" width="80%"]
+[tr]
+[td bgcolor="#05aa13" width="16.67%" height="40px"][/td]
+[td bgcolor="#2d9e0b" width="16.67%" height="40px"][/td]
+[td bgcolor="#569104" width="16.67%" height="40px"][/td]
+[td bgcolor="#718400" width="16.67%" height="40px"][/td]
+[td bgcolor="#7e7600" width="16.67%" height="40px"][/td]
+[td bgcolor="#8b6800" width="16.67%" height="40px"][/td]
 [/tr]
 [/table]
 
-[anchor="Ahri"]
-[responsive]
-[row align-items="center" justify-content="center"]
-[col][icon="Ahri" size=80][/col]
-[col max-width="560px" bgcolor="#654321" padding="15px" margin="5px" border-radius="8px"][color=#FFFF99]
-[b][[Ahri]] - Even Matchup[/b]
+[size=1][color=#FFFF99] [/color][/size]
+[size=1][color=#FFFF99] [/color][/size]
 
-Mel and [[Ahri]] have an even laning phase. Similar to most mage-matchups, whoever gets priority and dodges more spells is winning. Sadly, [[Ahri]]'s Fox Fire orbs are not dodgeable and she can proc electrocute with them. As such, we need to stand further back and poke her out with our range. In the event that [[Ahri]] comes into close quarters to attempt to trade, ensure that she is far enough forward that she ends up tanking your minion wave. Use your W to block her charm. If you have high-ping and she is very close, it can be very difficult to react to her charm in time. Essentially, you have the range advantage here, use it to poke out the [[Ahri]], though she will be able to obtain priority in this lane. This is a skill-matchup.
-[/color][/col]
+[responsive]
+[row align-items="flex-start" justify-content="space-between"]
+[col width="250px" min-width="120px"]
+[size=4][color=#FFFF99][b]Summoners[/b][/color][/size]
+[size=1][color=#FFFF99] [/color][/size]
+[icon=flash size=40][space][icon=teleport size=40]
+[/col]
+
+[col width="300px" min-width="200px"]
+[size=4][color=#FFFF99][b]Recommended build[/b][/color][/size]
+[size=1][color=#FFFF99] [/color][/size]
+[icon=kraken slayer size=40][space][icon=berserker's greaves size=40][space][icon=navori flickerblade size=40][space][icon=infinity edge size=40][space][icon=lord dominik's regards size=40][space][icon=bloodthirster size=40]
+[/col]
+[/row]
+[/responsive]
+[/col]
+
+[col width="150px" min-width="100px"]
+[center][icon=classic ahri size=150][/center]
+[/col]
 [/row]
 [/responsive]
 
-[anchor="Akali"]
-[responsive]
-[row align-items="center" justify-content="center"]
-[col][icon="Akali" size=80][/col]
-[col max-width="560px" bgcolor="#654321" padding="15px" margin="5px" border-radius="8px"][color=#FFFF99]
-[b][[Akali]] - Akali Favored[/b]
-
-[[Akali]] is one of my personal least favorite champions to play against. [[Akali]]'s Q is nearly the range of our auto attack and will require us to have some pixel-perfect spacing if we want to avoid taking damage. Just lack all assassins though, we have excellent range her and can play from behind our minion wave, using our spells to bully the [[Akali]] out of lane. If she purchases magic-penetration, invest in a [[Null-Magic Mantle]] to avoid getting one-shot. At level-6, we can never win a fight if manages to get on-top of us. Poke her out, play from range, DO NOT DIE. This is an [[Akali]] favored lane and we need to scale into the mid-game without dieing.
-[/color][/col]
-[/row]
-[/responsive]
-
-[anchor="Akshan"]
-[responsive]
-[row align-items="center" justify-content="center"]
-[col][icon="Akshan" size=80][/col]
-[col max-width="560px" bgcolor="#654321" padding="15px" margin="5px" border-radius="8px"][color=#FFFF99]
-[b][[Akshan]] - Akshan Favored[/b]
-
-This lane is definitely not Mel-favored. [[Akshan]] wins almost every lane in the game but he is completely useless in teamfights later into the game. Once again, play from range and try to land your free poke from distance. DO NOT go too far aware from your tower. All it takes is one good swing off the wall and [[Akshan]] will claim half of your HP instantly. Twice and you are dead. We need to shove waves, ping his roams and follow when possible, and pray that our team will respect his strength. The sad reality of this lane is that we have minimal impact to do anything. We need to wait for our jungler to gank or for [[Akshan]] to make a mistake before we can capitalize.
-[/color][/col]
-[/row]
-[/responsive]
-
-[anchor="Anivia"]
-[responsive]
-[row align-items="center" justify-content="center"]
-[col][icon="Anivia" size=80][/col]
-[col max-width="560px" bgcolor="#654321" padding="15px" margin="5px" border-radius="8px"][color=#FFFF99]
-[b][[Anivia]] - Skill Matchup[/b]
-
-I love playing this lane. This is a super-fun skill matchup. We are stronger than [[Anivia]] in the first couple of levels. Be careful though, her Q is deceptively long range. Wait for [[Anivia]] to cast her Q on the wave level 1 and take a strong trade into her, skilling E for the root, or skilling Q if we are confident that we can hit a large number of missiles. If [[Anivia]] never casts a spell on the wave, we can skill our Q here and poke her from distance. At level 2, she is temporarily stronger then us, and we need to respect her Q+E combo. After this however, we are stronger for the rest of the game with the assistance of our W making it impossible for her to land her combo while this spell is off-cooldown. Keep in mind however, that we cannot "pop" the [[Anivia]] Q after reflecting it. The snow circle thingy is always going to pop at the end of its travel distance. After level-6, [[Anivia]] will perma shove waves with her ultimate. Do the exact same and shove waves and match [[Anivia]]'s roaming throughout the map.
-[/color][/col]
-[/row]
-[/responsive]
-
-[anchor="Annie"]
-[responsive]
-[row align-items="center" justify-content="center"]
-[col][icon="Annie" size=80][/col]
-[col max-width="560px" bgcolor="#654321" padding="15px" margin="5px" border-radius="8px"][color=#FFFF99]
-[b][[Annie]] - Annie Favored[/b]
-
-[[Annie]] is really good into Mel. Nobody on the planet has the reaction time to use your W in response to [[Annie]]'s flash [[Tibbers]]. As such, we need to change our build path into [[Annie]] to avoid getting exploded on-cooldown. Look to abuse the [[Annie]] levels 1-5, she is super weak and lacks range. Take an early reset, investing into a [[Null-Magic Mantle]]. This will prevent the [[Annie]] from being able to one-shot you for the majority of the game. After finishing your core 2-items, OR once the [[Annie]] gets fed/ has too much damage, turn your [[Null-Magic Mantle]] into a [[Verdant Barrier]]. [[Annie]] is a simple champion and outside from her [[Flash]] one-shot combos, you will be able to survive, shove waves, and poke her out of the game.
-[/color][/col]
-[/row]
-[/responsive]
-
-[anchor="Aurelion Sol"]
-[responsive]
-[row align-items="center" justify-content="center"]
-[col][icon="Aurelion Sol" size=80][/col]
-[col max-width="560px" bgcolor="#654321" padding="15px" margin="5px" border-radius="8px"][color=#FFFF99]
-[b][[Aurelion Sol]] - Mel Favored[/b]
-
-[[Aurelion Sol]] has a super high skill-cap and the best Asol players will have you questioning your existance. Luckily, this matchup is Mel favored and [[Aurelion Sol]] isn't the strongest laner, though he does scale really well. At level 1, we want to play aggressive, standing behind our melee minions, getting priority in the lane, and spamming our spell onto his head. All he can do is breathe on us for 40 damage. After level 1, he will have his black hole ability. Save your spells for after he attempts to farm the wave with this black hole and Q in order to get passive stakcs. He cannot move while channeling his Q and this is our perfect opportunity to land our E into Q combo. If you ever see him flying at you with W, he flies in a straight line and you can easily land your root because of this, stopping his flight. Against [[Aurelion Sol]], we won't have any problem laning, but he is a monster in teamfights and we need to ensure that we poke him out of lane and get a lead early.
-[/color][/col]
-[/row]
-[/responsive]
-
-[anchor="Aurora"]
-[responsive]
-[row align-items="center" justify-content="center"]
-[col][icon="Aurora" size=80][/col]
-[col max-width="560px" bgcolor="#654321" padding="15px" margin="5px" border-radius="8px"][color=#FFFF99]
-[b][[Aurora]] - Mel Favored[/b]
-
-[[Aurora]] has crazy early game damage, and we cannot afford to be trading auto attacks with her, giving her passive process. Most [[Aurora]]s will use their Q+E together, when they do this, we can look to reflect back the projectile. Stay back and use your Q for poke. When [[Aurora]] goes invisible, wait for her to reveal herself before we start using spells. This matchup is Mel favored due to our far range and ability to abuse her without Counterplay. [[Aurora]] does have stronger wave clear though, and you need to ensure that you aren't constantly getting shoved under tower. Max E in this lane.
-[/color][/col]
-[/row]
-[/responsive]
-
-[anchor="Azir"]
-[responsive]
-[row align-items="center" justify-content="center"]
-[col][icon="Azir" size=80][/col]
-[col max-width="560px" bgcolor="#654321" padding="15px" margin="5px" border-radius="8px"][color=#FFFF99]
-[b][[Azir]] - Azir Favored[/b]
-
-One of the hardest matchups in the game for us. We have nothing to reflect against [[Azir]] as none of his damage is from projectiles. We're also a sitting duck against his Shiruma Shuffle (where he ults you into his team). Shove waves as much as possible. Short-trading is all we can manage here. Trading auto-attacks for extended fights is always losing against [[Azir]]. Look to shove-waves, roaming around the map to make a greater impact. You are stronger in skirmishes than [[Azir]] and you NEED to use this to your advantage or you will get outscaled.
-[/color][/col]
-[/row]
-[/responsive]
-
-[anchor="Cassiopeia"]
-[responsive]
-[row align-items="center" justify-content="center"]
-[col][icon="Cassiopeia" size=80][/col]
-[col max-width="560px" bgcolor="#654321" padding="15px" margin="5px" border-radius="8px"][color=#FFFF99]
-[b][[Cassiopeia]] - Mel Favored[/b]
-
-[[Cassiopeia]] struggles from a lack of range with her spells. Be careful though as her Noxious Blast, while unreliable, is slightly shorter range than our spells and can do some serious damage if we are spacing poorly. If we play well, [[Cassiopeia]] has a terrible time in the early game and won't be able to touch us. Keep in mind, once she hits the first Q, she gains a burst of movespeed that will enable her to chase us down- it only takes 1 for [[Cassiopeia]] to claim our whole health bar. Poke [[Cassiopeia]] from far, respecting the slightly shorter range of her Q. Priority (shoving the wave) is not the most important in this matchup, as if Cass wants to shove, she has to use A TON of mana. Max Q in this lane.
-[/color][/col]
-[/row]
-[/responsive]
-
-[anchor="Corki"]
-[responsive]
-[row align-items="center" justify-content="center"]
-[col][icon="Corki" size=80][/col]
-[col max-width="560px" bgcolor="#654321" padding="15px" margin="5px" border-radius="8px"][color=#FFFF99]
-[b][[Corki]] - Skill Matchup[/b]
-
-[[Corki]] does a lot of damage, especially early-game, but similarly to [[Draven]], is not much of a threat outside of his high-damage and falls off in the lategame. Our win condition against [[Corki]] is our superior range and ability to outscale him. To play the lane, we have to abuse our range. A good [[Corki]] can zone us off of some CS, but will have to tank our abilities in order to do so, losing his HP in the process. It's likely that you will go down some CS in the lane phase, and that's totally okay. Not dieing in this lane is a massive win for us. Sadly though, we will struggle to win skirmishes against [[Corki]] unless our jungler is significantly stronger. Play safe and use your W to reflect his Q (phosphorus bomb) whenever possible.
-[/color][/col]
-[/row]
-[/responsive]
-
-[anchor="Diana"]
-[responsive]
-[row align-items="center" justify-content="center"]
-[col][icon="Diana" size=80][/col]
-[col max-width="560px" bgcolor="#654321" padding="15px" margin="5px" border-radius="8px"][color=#FFFF99]
-[b][[Diana]] - Skill Matchup[/b]
-
-Similarly to most assasins, [[Diana]] is a champ that we can outscale. Unlike other assassins though, she has some scary range with her Crescent Strike. After level 6, if she can hit her Q and get a full combo on us, we are dead. We have to dodge Qs, either be playing for out of her range (very hard), sidestepping (better), and playing on our W cooldown to reflect it back (optimal). We have good waveclear into [[Diana]]. If she decides to E into you without hitting her Q, she can't dash again for 20ish seconds and we can abuse this timer to lay down heavy poke. Most of the time, this lane is a wash (nobody will get kills), if both sides are playing properly. If you fail to reflect her Q, block the damage of her ultimate (do not use it on the initial pull) with your W. Max E in this lane.
-[/color][/col]
-[/row]
-[/responsive]
-
-[anchor="Ekko"]
-[responsive]
-[row align-items="center" justify-content="center"]
-[col][icon="Ekko" size=80][/col]
-[col max-width="560px" bgcolor="#654321" padding="15px" margin="5px" border-radius="8px"][color=#FFFF99]
-[b][[Ekko]] - Mel Favored[/b]
-
-[[Ekko]] cannot kill you in one combo. If an [[Ekko]] tries to Phase Dive onto you, immediately use your W and trade back into him. You will always win the trade if you reflect any of his spells and prevent him from proccing his passive. However, if he ever hits his Parallel Convergence, you won't die, but you will be forced to recall. If an [[Ekko]] steps out of vision, you can expect he is casting his Parallel Convergence and plans to enage on you. Be ready for this and backup when you cannot see him. Poke him out of lane and you can easily get a CS lead here and even a solokill if he overstays on low HP. Very very good lane for Mel. Max E in the lane.
-[/color][/col]
-[/row]
-[/responsive]
-
-[anchor="Ezreal"]
-[responsive]
-[row align-items="center" justify-content="center"]
-[col][icon="Ezreal" size=80][/col]
-[col max-width="560px" bgcolor="#654321" padding="15px" margin="5px" border-radius="8px"][color=#FFFF99]
-[b][[Ezreal]] - Mel Favored[/b]
-
-[[Ezreal]] mid hasn't seen play in the last couple of patches, but he is still an effective midlaner. Our W against [[Ezreal]] is best used when if he lands his W on us and uses another spell/attack to proc the explosion damage. He is not a very strong champion, but don't be over aggressive, throwing your E out and giving him an opportunity to dash on top of you. Play from range, use your superior waveclear, roam to get a lead around the map, and poke him out of lane with only your Q. Max Q in this lane.
-[/color][/col]
-[/row]
-[/responsive]
-
-[anchor="Fizz"]
-[responsive]
-[row align-items="center" justify-content="center"]
-[col][icon="Fizz" size=80][/col]
-[col max-width="560px" bgcolor="#654321" padding="15px" margin="5px" border-radius="8px"][color=#FFFF99]
-[b][[Fizz]] - Skill Matchup[/b]
-
-I hate [[Fizz]] with a passion. Not that [[Fizz]] is actually a good champion, because he definitely isn't, I just personally struggle here. Anyways, [[Fizz]] has super predictable damage that can easily be blocked with our W. For the first 3 levels, we want to start with our E. WE NEVER use it if [[Fizz]] has his Playful/Trickster off cooldown to dodge it. If we do miss our E and he manages to get on top of us, we will take way too much damage and be forced to reset. Instead, always use your Q first, hoping to bait out his E. If he never uses he E, that is just fine, we take our free poke in the lane and force him to reset on bad timers. We have superior waveclear too and can easiy shove him under tower and roam. After level 6 though, we only use our W to reflect his ultimate. If we ever find that our W is on cooldown and his ultimate is offcooldown, backoff and wait. Max Q in this lane.
-[/color][/col]
-[/row]
-[/responsive]
-
-[anchor="Galio"]
-[responsive]
-[row align-items="center" justify-content="center"]
-[col][icon="Galio" size=80][/col]
-[col max-width="560px" bgcolor="#654321" padding="15px" margin="5px" border-radius="8px"][color=#FFFF99]
-[b][[Galio]] - Mel Favored[/b]
-
-[[Galio]] can only ever do damage to us if we overextend. Play from the end of your auto attack range and he won't be able to hit a justice punch. If he uses justice punch, immediately run backwards and use your E to root him in place, preventing him from landing a taunt afterwards. This is another lane that we can abuse as a result of our long range. This lane is very easy and we can only use if [[Galio]] uses his ultimate to swing fights for his teammates. Keep him shoved under tower and use your prio to roam and affect the map. Max E in this lane.
-[/color][/col]
-[/row]
-[/responsive]
-
-[anchor="Garen"]
-[responsive]
-[row align-items="center" justify-content="center"]
-[col][icon="Garen" size=80][/col]
-[col max-width="560px" bgcolor="#654321" padding="15px" margin="5px" border-radius="8px"][color=#FFFF99]
-[b][[Garen]] - Scale and Roam[/b]
-
-Likely, he will run second wind + [[Doran's Shield]] making him almost impossible to kill. Clear the wave and roam. Interacting in this lane is almost pointless after he gets some health/MR. Keep in mind that any damage will reset his passive timer, preventing him from gaining. After level 9, his passive healing becomes even stronger. This lane is won by affecting the map and outscaling. You have too much range to take damage from him, even if he tries to flash on you. You get outscaled here though and NEED to gain a lead somewhere else on the map. Max E in this lane.
-[/color][/col]
-[/row]
-[/responsive]
-
-[anchor="Gragas"]
-[responsive]
-[row align-items="center" justify-content="center"]
-[col][icon="Gragas" size=80][/col]
-[col max-width="560px" bgcolor="#654321" padding="15px" margin="5px" border-radius="8px"][color=#FFFF99]
-[b][[Gragas]] - Mel Favored[/b]
-
-Not played mid very much, and for good reason. [[Gragas]] can use his Q to do some poke to you and has some sustain with his passive. Besides this, he cannot his you with the rest of his spells. Even his ultimate is too close range to knock you into him if you play from the max-range of your spells. HOWEVER, he can E+[[Flash]] combo you to catch you offguard. If he does this, press your W while he is mid animation. This will allow you to block the inital damage and you can usually just walk away afterwards. Max E in this lane.
-[/color][/col]
-[/row]
-[/responsive]
-
-[anchor="Heimerdinger"]
-[responsive]
-[row align-items="center" justify-content="center"]
-[col][icon="Heimerdinger" size=80][/col]
-[col max-width="560px" bgcolor="#654321" padding="15px" margin="5px" border-radius="8px"][color=#FFFF99]
-[b][[Heimerdinger]] - Scale and Survive[/b]
-
-This champion is very annoying. You can't really kill his turrets unlike other mages ([[Syndra]] especially). Kill his turrest if they are focused on your minions and he is far away from you. Focus on clearing the waves and getting CS. Using spells on him is a lost cause, you will lose CS due to his fast waveclear if you don't push as hard as possible. You will go down CS against a good Heimer. Ping for your Jungler to come if it possible to kill him. Some jungle champs are simply not strong enough and will get oneshot by Heimer ([[Elise]], [[Brand]], [[Zyra]], [[Kha'Zix]]). In this case, just scale and hope to win through superior teamfighting.
-[/color][/col]
-[/row]
-[/responsive]
-
-[anchor="Hwei"]
-[responsive]
-[row align-items="center" justify-content="center"]
-[col][icon="Hwei" size=80][/col]
-[col max-width="560px" bgcolor="#654321" padding="15px" margin="5px" border-radius="8px"][color=#FFFF99]
-[b][[Hwei]] - Mel Favored[/b]
-
-[[Hwei]] has been hit with nerfs so many times and is now just a bad champion. He does very little damage. When he uses his lava river, be cautious of him using his E+E(jaws) to pull you into the river and proccing his passive. You have more range and your Q can be cast from behind minions unlike his best poking spell Q+Q (fireball). Free lane here, poke him out and look to kill once he is low. This lane is super winnable and you can look to win the game through annihilating him in lane and carrying teamfights.
-[/color][/col]
-[/row]
-[/responsive]
-
-[anchor="Irelia"]
-[responsive]
-[row align-items="center" justify-content="center"]
-[col][icon="Irelia" size=80][/col]
-[col max-width="560px" bgcolor="#654321" padding="15px" margin="5px" border-radius="8px"][color=#FFFF99]
-[b][[Irelia]] - Irelia Favored[/b]
-
-[[Irelia]] does a lot of damage with max passive stacks but is relatively weak otherwise. We need to respect her range and ability to engage on us after Qing onto a low ranged-minion. Do not be afraid to give CS in exchange for suriving the lane. [[Irelia]] is not very strong late-game and we are more than happy to scale safely. Only use your E after she has dashed ontop of you. Do not use it while she is dashing to a minion, its too easy for her to dodge in response. We can use our W on her E or on her Ultimate. Both are excellent uses and we should reflect whichever spell she casts first. Max E in this lane, take W level 3.
-[/color][/col]
-[/row]
-[/responsive]
-
-[anchor="Jayce"]
-[responsive]
-[row align-items="center" justify-content="center"]
-[col][icon="Jayce" size=80][/col]
-[col max-width="560px" bgcolor="#654321" padding="15px" margin="5px" border-radius="8px"][color=#FFFF99]
-[b][[Jayce]] - Mel Favored[/b]
-
-Typically played in the toplane, [[Jayce]] has historically seen some play in mid. His Q is very long range, but cannot go through minions. Stand behind the wave. He may look to use his To The Skies, hammer form Q on the back caster minions. If he does this, he will slow you and you will take some damage from the spell. That's totally fine. He will tank your entire minion wave and you are free to root him. He cannot dodge while he is in the air from his hammer Q. If he never decides to use his Q on you, you can poke him down from range very easily. He does have stronger skirmishing if he manages to get a full combo off on your jungler. Use your W to block damage from his Empowered Q or from his To The Skies. Very easy lane, max Q.
-[/color][/col]
-[/row]
-[/responsive]
-
-[anchor="Kai'sa"]
-[responsive]
-[row align-items="center" justify-content="center"]
-[col][icon="Kai'Sa" size=80][/col]
-[col max-width="560px" bgcolor="#654321" padding="15px" margin="5px" border-radius="8px"][color=#FFFF99]
-[b][[Kai'Sa]] - Mel Favored[/b]
-
-Bully her out of lane. Spam Q and E on her. If she tries to E and run forward at you, just backup and block her Q with your W. Max Q here.
-[/color][/col]
-[/row]
-[/responsive]
-
-[anchor="Karma"]
-[responsive]
-[row align-items="center" justify-content="center"]
-[col][icon="Karma" size=80][/col]
-[col max-width="560px" bgcolor="#654321" padding="15px" margin="5px" border-radius="8px"][color=#FFFF99]
-[b][[Karma]] - Karma Favored[/b]
-
-Very strong lane bully and we need to be very careful. If we overstep, she can use her Inner Binding to land a free root on us. If she uses her empowered Q, we CAN block it, but only if it lands directly on us. If it explodes on the ground nearby or hits a minion, it won't reflect from our W. As always, we play from range here. Save your E until he is in closer quarters (it's too easy to dodge if she is far away). Do not use your W on her root. Only use it on her Q. We outscale in his lane. We will lose lane prio most likely but can oustcale.
-[/color][/col]
-[/row]
-[/responsive]
-
-[anchor="Kassadin"]
-[responsive]
-[row align-items="center" justify-content="center"]
-[col][icon="Kassadin" size=80][/col]
-[col max-width="560px" bgcolor="#654321" padding="15px" margin="5px" border-radius="8px"][color=#FFFF99]
-[b][[Kassadin]] - Mel Early, Kassadin Late[/b]
-
-This is the same for all mages. We get outscaled hard but can get prio and abuse him early. Mel can abuse [[Kassadin]] better then most due to her deceptively high execute threshold and high early game damage. We abuse him when he goes for CS, especially when he is under tower. After he hits level 6, he can win trades but only if his ultimate damage hits us. Space properly to ensure that he cannot use it for damage. At level 11, he becomes a real threat and can easily solo kill us if we are far from our tower in the sidelane. Abuse your superior early game to get dragons, invade with your jungler, and gank other lanes. This lane is won by playing the map. Doing nothing and staying in lane (without getting solo kills) will almost certainly lose you the game. Max E in this lane.
-[/color][/col]
-[/row]
-[/responsive]
-
-[anchor="Katarina"]
-[responsive]
-[row align-items="center" justify-content="center"]
-[col][icon="Katarina" size=80][/col]
-[col max-width="560px" bgcolor="#654321" padding="15px" margin="5px" border-radius="8px"][color=#FFFF99]
-[b][[Katarina]] - Mel Favored[/b]
-
-[[Katarina]] is not a hard champion in lane. For some reason, it always seems like [[Katarina]] will randomly roam bot and get a double kill. Ever. Single. Game. Shove waves and poke [[Katarina]] out. If she uses her Bouncing Dagger, run forward such that she cannot get her passive damage from the blade. Continue to trade and you can almost always in the trades, especially if you W any of her damage. Keep in mind that when you use your W, it will reflect many of the daggers from her ultimate over the 0.75 seconds that your reflection is active. Always keep track of her movement and ping her roam timers to your team. If she does not start [[Doran's Shield]] this lane is super free. She should be going down 50cs by 14 minutes with several plates lost.
-[/color][/col]
-[/row]
-[/responsive]
-
-[anchor="Kayle"]
-[responsive]
-[row align-items="center" justify-content="center"]
-[col][icon="Kayle" size=80][/col]
-[col max-width="560px" bgcolor="#654321" padding="15px" margin="5px" border-radius="8px"][color=#FFFF99]
-[b][[Kayle]] - Mel Early, Kayle Late[/b]
-
-Easy lane. Abuse her from range. She is only a threat after 6. If we dodge her Q she is very weak. Don't use your E from max range, only when she attempts to get closer. Abuse her before she gets her range at level 6. You get outscaled against a good [[Kayle]].
-[/color][/col]
-[/row]
-[/responsive]
-
-[anchor="LeBlanc"]
-[responsive]
-[row align-items="center" justify-content="center"]
-[col][icon="LeBlanc" size=80][/col]
-[col max-width="560px" bgcolor="#654321" padding="15px" margin="5px" border-radius="8px"][color=#FFFF99]
-[b][[LeBlanc]] - Skill Matchup[/b]
-
-This is the champion that I personally ban every game. I don't think she's unwinnable or anything, I just don't like playing against her. Mel is one of the best mages against [[LeBlanc]] though. Since [[LeBlanc]]'s distortion is linear (she moves in a straight line), it is super easy for us to root her while she is flying. We can always use our W to reflect her chains. Invest in a [[Null-Magic Mantle]] after finishing [[Lost Chapter]] but do not buy [[Mercury's Treads]] (ever). Those boots are a bait on mages. Sit on your [[Null-Magic Mantle]] and then upgrade to a [[Verdant Barrier]] when [[LeBlanc]] becomes stronger in the sidelane. Save your W for her chains OR if she attempts to do a Q + W + R combo, you can use your W to avoid all of the damage. This can be a mental warfare to read what spells/combo she plans on using. Max E in this lane.
-[/color][/col]
-[/row]
-[/responsive]
-
-[anchor="Lissandra"]
-[responsive]
-[row align-items="center" justify-content="center"]
-[col][icon="Lissandra" size=80][/col]
-[col max-width="560px" bgcolor="#654321" padding="15px" margin="5px" border-radius="8px"][color=#FFFF99]
-[b][[Lissandra]] - Mel Favored[/b]
-
-[[Lissandra]] suffers from a lack of range but her gank setup can be lethal. Focus on tracking the enemy jungle to ensure she doesn't use her glacial path into a root. If everything goes correctly, you can use your W to reflect her Q poke occasionally and use your longer ranger to poke her out of lane. If she chooses to engage on you without her jungler present, you will easily win the trades pre-6. After 6, she cannot one-shot you with her ultimate but will usually win trades if she combos properly so we need to play a little safer.
-[/color][/col]
-[/row]
-[/responsive]
-
-[anchor="Lucian"]
-[responsive]
-[row align-items="center" justify-content="center"]
-[col][icon="Lucian" size=80][/col]
-[col max-width="560px" bgcolor="#654321" padding="15px" margin="5px" border-radius="8px"][color=#FFFF99]
-[b][[Lucian]] - Lucian Favored[/b]
-
-Probably the hardest ADC for us to play against in midlane. His Q is not reflectable and we don't have any great reflections here, outside of his ultimate if he uses it poorly or reflecting 3 of his auto attacks. I recommend playing safe in this lane. We need to avoid him poking us with his Q through minion I.E, do not let him line it up properly. Do not use your E carelessly as he can easily dash out of the way. Use your Q for poke and focus on shoving the wave/suriving. This is a very skill-dependent matchup.
-[/color][/col]
-[/row]
-[/responsive]
-
-[anchor="Lux"]
-[responsive]
-[row align-items="center" justify-content="center"]
-[col][icon="Lux" size=80][/col]
-[col max-width="560px" bgcolor="#654321" padding="15px" margin="5px" border-radius="8px"][color=#FFFF99]
-[b][[Lux]] - Skill Matchup[/b]
-
-[[Lux]] has longer range, just like you. Luckily, we have two spells that can poke her out while she only has her lucent singularity. Bad news though, [[Lux]] Lucent Singularity is unmissable if the [[Lux]] player has decent aim. Focus on clearing waves. If you do get hit by her binding without reflecting it, you can always use your W to avoid the damage from her ult that will follow. If you reflect [[Lux]] E, you have no way to pop it. It will just form a slowing circle that automatically pops after 2.5 seconds. Ideally, we reflect the bindings here and only reflect the E from [[Lux]] when needed.
-[/color][/col]
-[/row]
-[/responsive]
-
-[anchor="Malphite"]
-[responsive]
-[row align-items="center" justify-content="center"]
-[col][icon="Malphite" size=80][/col]
-[col max-width="560px" bgcolor="#654321" padding="15px" margin="5px" border-radius="8px"][color=#FFFF99]
-[b][[Malphite]] - Mel Favored[/b]
-
-[[Malphite]] has a short-range poking spells that is very easy for us to avoid if we play from our range. We can poke him out of lane. If [[Malphite]] runs [[Doran's Ring]], we can kill him before level 6. If he hits 6 and tries to ult onto you CAST YOUR REFLECTION. This will allow you to avoid the burst from his ult, otherwise, you might die and he can cast his seismic rock while you are stunned, preventing us from being able to reflect it. Shove and roam if he goes tank and you are unable to kill him. Max E in this lane.
-[/color][/col]
-[/row]
-[/responsive]
-
-[anchor="Malzahar"]
-[responsive]
-[row align-items="center" justify-content="center"]
-[col][icon="Malzahar" size=80][/col]
-[col max-width="560px" bgcolor="#654321" padding="15px" margin="5px" border-radius="8px"][color=#FFFF99]
-[b][[Malzahar]] - Mel Favored[/b]
-
-Malz is very abusable but his some excellent gank setup for his jungler with his flash + R combo. Just like [[Lissandra]], we need to keep strong jungle tracking to ensure that we don't get caught off-guard. His passive shield lasts for 0.25 seconds after he is hit with a spell. This means that he will block almost all of our Q missiles, but will not block the damage from scorch+comet. Poke his shield with your Q missiles. Use your E when the shield is down and combo with your Q for some bigger damage. We can get a strong cs lead her. Your autos will one-shot his voidlings. Kill these the moment that he spawns them to avoid letting him push the wave. Ensure that you do not stand next to a minion that is dieing with [[Malzahar]] E on it. It will bounce to you after it dies. Max Q in this lane.
-[/color][/col]
-[/row]
-[/responsive]
-
-[anchor="Morgana"]
-[responsive]
-[row align-items="center" justify-content="center"]
-[col][icon="Morgana" size=80][/col]
-[col max-width="560px" bgcolor="#654321" padding="15px" margin="5px" border-radius="8px"][color=#FFFF99]
-[b][[Morgana]] - Mel Favored[/b]
-
-[[Morgana]] has strong waveclear with her W. She can avoid your E cc with her blackshield. Poke her down with Q, and focus on clearing the wave such that you aren't forced to spend time CSing under tower. Reflect her Q when needed. Very easy lane though we probably can't solo kill her.
-[/color][/col]
-[/row]
-[/responsive]
-
-[anchor="Naafiri"]
-[responsive]
-[row align-items="center" justify-content="center"]
-[col][icon="Naafiri" size=80][/col]
-[col max-width="560px" bgcolor="#654321" padding="15px" margin="5px" border-radius="8px"][color=#FFFF99]
-[b][[Naafiri]] - Mel Favored[/b]
-
-[[Naafiri]] suffers from a lack of range. Do not use your E unless she engages and uses her invulnerability spell first. Poke her with your Q from range and focus on dodging her daggers. She is a much stronger skirmisher than us but we will heavility outscale. Max E in this lane and ping her roams around the map.
-[/color][/col]
-[/row]
-[/responsive]
-
-[anchor="Neeko"]
-[responsive]
-[row align-items="center" justify-content="center"]
-[col][icon="Neeko" size=80][/col]
-[col max-width="560px" bgcolor="#654321" padding="15px" margin="5px" border-radius="8px"][color=#FFFF99]
-[b][[Neeko]] - Skill Matchup[/b]
-
-If we play poorly and tank all of her spells without reflection, we will get massively outraded in short-trades. When [[Neeko]] uses her W in lane, do not panic, just wait for her to use her root and quickly reflect it. Do not use a max range E against [[Neeko]]. Poke her down with your Q. Often times, [[Neeko]] players will use their full combo on the wave. In this case, we can walk forward and take strong trades into her. Not a common lane. Count minions to avoid dying to her ult unexpectedly. Max E in this lane.
-[/color][/col]
-[/row]
-[/responsive]
-
-[anchor="Orianna"]
-[responsive]
-[row align-items="center" justify-content="center"]
-[col][icon="Orianna" size=80][/col]
-[col max-width="560px" bgcolor="#654321" padding="15px" margin="5px" border-radius="8px"][color=#FFFF99]
-[b][[Orianna]] - Orianna Favored[/b]
-
-This lane sucks because we have nothing to reflect. While we do have longer range, it's not by much. [[Orianna]] has more damage, stronger waveclear, a better ultimate, and more DPS. play from range and focus on dodging her ball Q+W combo. Call for your jungler when you are really struggling. Often times, if you are both low and the [[Orianna]] looks to Q her ball onto you, you can [[Flash]]+E combo, dodging her spells and if you do it quick enough, she doesn't have time to react. The whole lane revolves around her ball. If it is not on top of you, she cannot cast her spells. Sadly, she can move it every 3ish seconds with Q and we need to play around this timer. Consider banning her.
-[/color][/col]
-[/row]
-[/responsive]
-
-[anchor="Pantheon"]
-[responsive]
-[row align-items="center" justify-content="center"]
-[col][icon="Pantheon" size=80][/col]
-[col max-width="560px" bgcolor="#654321" padding="15px" margin="5px" border-radius="8px"][color=#FFFF99]
-[b][[Pantheon]] - Mel Favored[/b]
-
-[[Pantheon]] is horrible into Mel. Spam your spells on him. Do not use your W when he engages with his W onto you. He can hold his auto attacks and wait out your W in this case. Instead, if he does W on you (he shouldn't you have too much range), wait out the stun, root him after, and reflect one of the Qs that come later. Super easy lane and ping out his movements/roams since he use his ultimate to kill your teammates. We outscale here.
-[/color][/col]
-[/row]
-[/responsive]
-
-[anchor="Qiyana"]
-[responsive]
-[row align-items="center" justify-content="center"]
-[col][icon="Qiyana" size=80][/col]
-[col max-width="560px" bgcolor="#654321" padding="15px" margin="5px" border-radius="8px"][color=#FFFF99]
-[b][[Qiyana]] - Qiyana Favored[/b]
-
-This is one of the hardest assassin matchups. Two key things: We CAN reflect her Qs and DO NOT stand near walls. If she ever gets a full combo on us we are dead. Stand back and use your spells to clear the wave. Use your reflection if she dashes on top of you. In teamifghts, you can reflect her ultimate with your W. This is absolutely massive and can be used to turn fights completely, especially in the river. Do not throw out your E until she is too close to you to react. She will just dash to dodge it. Max E in this lane.
-[/color][/col]
-[/row]
-[/responsive]
-
-[anchor="Rumble"]
-[responsive]
-[row align-items="center" justify-content="center"]
-[col][icon="Rumble" size=80][/col]
-[col max-width="560px" bgcolor="#654321" padding="15px" margin="5px" border-radius="8px"][color=#FFFF99]
-[b][[Rumble]] - Mel Favored[/b]
-
-[[Rumble]] has no high-range spells to touch you. Poke from range and stand behind minions to avoid his electro harpoon. Do not let him shove the wave for free. Max E in this lane.
-[/color][/col]
-[/row]
-[/responsive]
-
-[anchor="Ryze"]
-[responsive]
-[row align-items="center" justify-content="center"]
-[col][icon="Ryze" size=80][/col]
-[col max-width="560px" bgcolor="#654321" padding="15px" margin="5px" border-radius="8px"][color=#FFFF99]
-[b][[Ryze]] - Mel Favored[/b]
-
-[[Ryze]] struggles from being a "battle mage" that has some decent burst. Even if he does get in range to root you, he cannot kill you. Most [[Ryze]] players will focus on shoving the wave. You can poke him and shove the wave simultaneously with your spells. Be careful of him roaming with his ultimate. Your W can reflect both his Spell Flux and his Overload. Max E in this lane.
-[/color][/col]
-[/row]
-[/responsive]
-
-[anchor="Smolder"]
-[responsive]
-[row align-items="center" justify-content="center"]
-[col][icon="Smolder" size=80][/col]
-[col max-width="560px" bgcolor="#654321" padding="15px" margin="5px" border-radius="8px"][color=#FFFF99]
-[b][[Smolder]] - Mel Favored[/b]
-
-[[Smolder]] sucks as a midlaner now. He is very squishy and will lose every trade if you land spells. Poke him out with your Q and E. Max Q in this lane.
-[/color][/col]
-[/row]
-[/responsive]
-
-[anchor="Swain"]
-[responsive]
-[row align-items="center" justify-content="center"]
-[col][icon="Swain" size=80][/col]
-[col max-width="560px" bgcolor="#654321" padding="15px" margin="5px" border-radius="8px"][color=#FFFF99]
-[b][[Swain]] - Mel Favored[/b]
-
-[[Swain]] is dangerous if he can manage to stick ontop of us in melee range. We have better range and can lay down good poke. Avoid getting hit by his E, which we can reflect with our W. We cannot reflect his Q. Very simple lane, keep distance, dodge spells, and you should be just fine. Max E in this lane.
-[/color][/col]
-[/row]
-[/responsive]
-
-[anchor="Sylas"]
-[responsive]
-[row align-items="center" justify-content="center"]
-[col][icon="Sylas" size=80][/col]
-[col max-width="560px" bgcolor="#654321" padding="15px" margin="5px" border-radius="8px"][color=#FFFF99]
-[b][[Sylas]] - Sylas Favored[/b]
-
-After level 3, [[Sylas]] full combo will take us down to about 150 HP if he gets all of his passive auto procs (without ignite). We CANNOT afford to make mistakes and tank his full combo. Poke him with Q, saving your E for when he attempts to dash forward and use his combo. If he is Q maxing, we can using our W to block his Q, but its really difficult since the animation where he puts the circle on the ground is very short. We can also reflect his Abduct, which can be dangerous since the reflection will pull us to the [[Sylas]]. As such, when we reflect his E back at him, we can immediately press our E after the stun expires to avoid [[Sylas]] immediately casting Kingslayer on us. The lane is tough due to [[Sylas]] damage. Don't use E until after he dashes. Max E in this lane.
-[/color][/col]
-[/row]
-[/responsive]
-
-[anchor="Syndra"]
-[responsive]
-[row align-items="center" justify-content="center"]
-[col][icon="Syndra" size=80][/col]
-[col max-width="560px" bgcolor="#654321" padding="15px" margin="5px" border-radius="8px"][color=#FFFF99]
-[b][[Syndra]] - Skill Matchup[/b]
-
-[[Syndra]] is equally as hard as [[Orianna]] and the lanes are very similar. We can use our W to reflect [[Syndra]] W and R, but we cannot reflect her other spells (including her E scatter). This is a skill matchup but we need to be slightly better and hit slightly more spells than the [[Syndra]] since we do less damage. Dodge as many of her Qs as you can. Consider purchasing boots early for easier dodging of her spells. If she guys magic pen items ([[Shadowflame]], [[Stormsurge]]), invest in a [[Null-Magic Mantle]], only upgrading to a [[Banshee's Veil]] later in the game. The mage with the better movement will win in this lane.
-[/color][/col]
-[/row]
-[/responsive]
-
-[anchor="Taliyah"]
-[responsive]
-[row align-items="center" justify-content="center"]
-[col][icon="Taliyah" size=80][/col]
-[col max-width="560px" bgcolor="#654321" padding="15px" margin="5px" border-radius="8px"][color=#FFFF99]
-[b][[Taliyah]] - Skill Matchup[/b]
-
-[[Taliyah]] is a very strange champion. For starters, all of her spells are dodgable and if you are good enough, can easily win the lane. On the other hand, her Seismic Shove is nearly as long-range as our spells and can easily catch us out of position. If we do get Seismic Shoved, immediately press your W to avoid taking the damage from the rocks. You should never be dieing to a [[Taliyah]] 1:1. You can abuse her from range and you SHOULD dodge most of her Seismic Shoves. Be aware of her waveclear and roam. Ensure that you are constantly pinging to your team when she is moving. Consider purchasing boots early for easier dodging of her spells.
-[/color][/col]
-[/row]
-[/responsive]
-
-[anchor="Talon"]
-[responsive]
-[row align-items="center" justify-content="center"]
-[col][icon="Talon" size=80][/col]
-[col max-width="560px" bgcolor="#654321" padding="15px" margin="5px" border-radius="8px"][color=#FFFF99]
-[b][[Talon]] - Mel Favored[/b]
-
-[[Talon]] is the most stereotypical assassin. If we messup, we will die, if we don't mess-up, he cannot play the game without roaming. His level 2 cheese is a very common timer for him to try to [[Flash]] all-in, be ready for it. Consider skilling your W second if you suspect that he may be going for this cheese. Start E in this lane. Do not get hit by his Q return damage (stand far enough back that it won't hit). Everytime that [[Talon]] moves into river, is roaming, or takes a reset, type or ping this to your team. He can easily dash over walls and kill your teammates to win the game. Keep your priority in lane, poke him heavily, and be ready for any [[Flash]] cheesing. If you play properly, the [[Talon]] CANNOT play in this lane. Max E.
-[/color][/col]
-[/row]
-[/responsive]
-
-[anchor="Tristana"]
-[responsive]
-[row align-items="center" justify-content="center"]
-[col][icon="Tristana" size=80][/col]
-[col max-width="560px" bgcolor="#654321" padding="15px" margin="5px" border-radius="8px"][color=#FFFF99]
-[b][[Tristana]] - Tristana Favored[/b]
-
-One of the hardest matchups for Mel in the game. If you do not reflect her Explosive Charge or Buster Shot with your W, it is very likely that she will just 100-0 after level-6 in one all-in. In this matchup we have to keep our distance, ensuring that we do not get hit by her Rocket Jump (slows by 40%). We are playing for scaling and survival here. Play safe and from range. Consider buying [[Plated Steelcaps]] if you are really struggling
-[/color][/col]
-[/row]
-[/responsive]
-
-[anchor="Tryndamere"]
-[responsive]
-[row align-items="center" justify-content="center"]
-[col][icon="Tryndamere" size=80][/col]
-[col max-width="560px" bgcolor="#654321" padding="15px" margin="5px" border-radius="8px"][color=#FFFF99]
-[b][[Tryndamere]] - Skill Matchup[/b]
-
-With his oppressive healing and pushing power, this can be a very tricky lane. If Trynd manages to get even 1 auto attack off in a trade, it is possible that we lose it. Always wait for Trynd to spin on you, saving your spells until he is directly on top. Afterwards, use your E, move out of his auto range, and use the rest of your spells/passive procs. Kite close to Trynd at the end of trades to get extra auto attacks. You can solo-kill some Trynd players pre level-6. After level 6, he will have some sustain (most likely) as well as his ultimate, preventing him from dying for several seconds. We need to clear waves and play from far range. On even items after level 6, Trynd is too hard to kill with all of his healing. Finish your boots after [[Lost Chapter]]. Max E in this lane.
-[/color][/col]
-[/row]
-[/responsive]
-
-[anchor="Twisted Fate"]
-[responsive]
-[row align-items="center" justify-content="center"]
-[col][icon="Twisted Fate" size=80][/col]
-[col max-width="560px" bgcolor="#654321" padding="15px" margin="5px" border-radius="8px"][color=#FFFF99]
-[b][[Twisted Fate]] - Mel Favored[/b]
-
-This lane is so free. Reflect his gold card if he ever uses it. Do not get baited and use your Reflection before he actually autos you with the card. A really good [[Twisted Fate]] player will cancel his empowered auto to bait your reflection, but this is very rare. We can win every trade against him, even if he hits the stun card. You should never be losing this lane, though he can roam around the map with his Destiny, making him a threat for your team. Ensure that you are pinging his movements throughout the game. Shoving waves and keeping priority is super important in this lane.
-[/color][/col]
-[/row]
-[/responsive]
-
-[anchor="Veigar"]
-[responsive]
-[row align-items="center" justify-content="center"]
-[col][icon="Veigar" size=80][/col]
-[col max-width="560px" bgcolor="#654321" padding="15px" margin="5px" border-radius="8px"][color=#FFFF99]
-[b][[Veigar]] - Mel Favored[/b]
-
-We cannot reflect [[Veigar]]'s W. Lane phase is simple, stay behind minions. He has very good gank setup with his cage and we need to be tracking the enemy junglers position constantly, especially if we don't have flash off cooldown. Always look to reflect his ultimate if you are within his lethal range. DO NOT ever walk into his cage wall, you cannot reflect it and it is better to trapped inside than stunned. Max Q in this lane.
-[/color][/col]
-[/row]
-[/responsive]
-
-[anchor="Vel'Koz"]
-[responsive]
-[row align-items="center" justify-content="center"]
-[col][icon="Vel'Koz" size=80][/col]
-[col max-width="560px" bgcolor="#654321" padding="15px" margin="5px" border-radius="8px"][color=#FFFF99]
-[b][[Vel'Koz]] - Skill Matchup[/b]
-
-The best [[Vel'Koz]] players make you want to quit the game. He does a shocking amount of damage, but is super squishy and vulnerable to ganks. If you see that the Vel is using all of his W on the wave, this is a good opportunity to trade with him. Keep in mind though, if you reflect his Q, the interaction is strange and often will get blocked by a minion before hitting him. Clear waves here and poke him with your Q. Max Q in this lane.
-[/color][/col]
-[/row]
-[/responsive]
-
-[anchor="Vex"]
-[responsive]
-[row align-items="center" justify-content="center"]
-[col][icon="Vex" size=80][/col]
-[col max-width="560px" bgcolor="#654321" padding="15px" margin="5px" border-radius="8px"][color=#FFFF99]
-[b][[Vex]] - Mel Favored[/b]
-
-We can reflect all of [[Vex]]'s ability except for her shield. In order to reflect her E, we must cast our reflection before it hits the ground, this is super unlikely. Focus on reflecting her Q and Ult. Do not let her push the wave for free. We have better poke, especially if you can manage to dodge her Q since the ability travels slowly at first. This is a Mel favored lane. Consider investing in boots early for an easier time dodging her spells. When the bar under [[Vex]]'s HP is full, this means her next ability is going to fear you. Be ready for the potential [[Flash]] W combo from [[Vex]], guaranteeing that she can fear you and enabling her to hit the rest of her spells with ease.
-[/color][/col]
-[/row]
-[/responsive]
-
-[anchor="Viktor"]
-[responsive]
-[row align-items="center" justify-content="center"]
-[col][icon="Viktor" size=80][/col]
-[col max-width="560px" bgcolor="#654321" padding="15px" margin="5px" border-radius="8px"][color=#FFFF99]
-[b][[Viktor]] - Skill Matchup[/b]
-
-We can reflect [[Viktor]]'s E with our shield. We have two spells that can hit him from far range, he only has 1. We will win the poking war if we don't get close enough for him to use his Q. Purchase boots if the [[Viktor]] has already bought them ASAP. This lane can be quite boring as we both have a lot of range and are likely to just reset if either champion gets low enough. Max Q in this lane.
-[/color][/col]
-[/row]
-[/responsive]
-
-[goto="Champion Matchups"]Go to Top[/goto]
+[size=1][color=#FFFF99] [/color][/size]
+[size=1][color=#FFFF99] [/color][/size]
+
+[table bgcolor="#654321" border="3px solid #FF8C00" border-radius="8px" cellpadding="0" cellspacing="0" width="100%"]
+[tr]
+[td padding="20px"]
+[color=#FFFF99][[Ahri]] is a fairly standard matchup for [[Tristana]] we need to be careful of her [[fox-fire]] as she can just walk up level 1 and get a good trade onto us. When she does this, make sure that we use [[explosive charge]] even if we only get 1 auto while it is active. This will always be an even trade.
+
+The important thing to understand when playing into [[Ahri]] is to keep auto attacking when she is dashing around us. Ensure that we wiggle back and forth to dodge her [[charm]] and [[orb of deception]]. If we can do this, begin the trade at even health, and dodge at least one ability, we will always win the trade.
+
+When attempting to [[rocket jump]] onto Ahri for our standard trading pattern, jump slightly to the side of the Ahri. Most Ahri players will throw their [[charm]] in a straight line. If we jump at an angle, they will usually miss. If the Ahri holds the charm until after we land, begin wiggling so we can dodge it. If she holds the charm too long we will win the trade regardless as she will take too much damage from our auto attacks.
+
+You can buffer Ahri's [[charm]] to effectively nullify her crowd control with your [[rocket jump]]. Check the INSERT PART WHERE THIS MECHANIC IS IN THE GUIDE section to learn how to buffer crowd control.[/color]
+[/td]
+[/tr]
+[/table]
+[/spoiler]
+[/td]
+[/tr]
+[/table]
+
+[goto="Table of Contents"]Go to Top[/goto]
 
 [center][size=5][color=#FF8C00][b]═══════════════════════════════════════════════════[/b][/color][/size][/center]

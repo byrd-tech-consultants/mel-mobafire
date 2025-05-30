@@ -114,7 +114,7 @@
 [/col]
 
 [col width="140px"]
-[table width="100%" cellpadding="0" cellspacing="16"]
+[table width="100%" cellpadding="0" cellspacing="8"]
 [tr]
 [td align="center" height="45px" padding="8px 5px" bgcolor="#8B4513" border-radius="8px"]
 [size=2][color=#FFFF99][b]┌──────────┐[/b][/color]
