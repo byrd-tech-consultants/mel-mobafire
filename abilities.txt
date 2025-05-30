@@ -1,0 +1,54 @@
+[anchor='Abilities']
+
+[table bgcolor="#3d2914" border="3px solid #FF8C00" border-radius="8px" cellpadding="0" cellspacing="0" width="99%" style="margin-right: 5px; max-width: 900px;"]
+	
+	[tr]
+		[td bgcolor="#3d2914" align="center"]
+			[img width="100%" style="max-width: 850px;"]http://www.byrdonline.com/evandabank/src/Abilities.png[/img]
+		[/td]
+	[/tr]
+	
+	[tr]
+		[td padding="20px 15px"]
+			
+			[responsive]
+				[row]
+					
+					[col width="48%" mobile-width="100%"]
+						
+						[table border="3px solid #FF8C00" border-radius="8px" cellpadding="0" cellspacing="0" width="100%"]
+							
+							[tr]
+								[td bgcolor="#d8433e" align="center" padding="15px"]
+									[size=20][color=#FFFFFF][b]Passive: Essence Theft[/b][/color][/size]
+								[/td]
+							[/tr]
+							
+							[tr]
+								[td bgcolor="#654321" padding="15px"]
+									
+									[center]
+										[webm url=https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0800/ability_0800_P1.mp4 width="200" autoplay][/webm]
+									[/center]
+									
+									[color=#FFFF99]Mel's passive allows her to stack essence on enemy champions. These stacks are crucial for her ultimate's execute potential and provide sustain throughout laning phase.[/color]
+									
+									[size=14][color=#FFD700][b]Key Tips[/b][/color][/size]
+									[color=#FFFF99]• Stack management is essential for ultimate timing
+• Passive stacks enable execute threshold indicators
+• Multiple abilities can apply stacks efficiently[/color]
+									
+								[/td]
+							[/tr]
+						[/table]
+						
+					[/col]
+					
+				[/row]
+			[/responsive]
+			
+		[/td]
+	[/tr]
+[/table]
+
+[goto="Abilities"]Go to Top[/goto]
