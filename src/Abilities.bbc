@@ -1,0 +1,58 @@
+// Abilities Section - Main anchor point for navigation
+[anchor='Abilities']
+
+// Main container table - Dark background with orange border
+// Width: 99% with max 900px, orange border styling
+[table bgcolor="#3d2914" border="3px solid #FF8C00" border-radius="8px" cellpadding="0" cellspacing="0" width="99%" style="margin-right: 5px; max-width: 900px;"]
+
+	// Header row containing the abilities banner image
+	[tr]
+		[td bgcolor="#3d2914" align="center"]
+			[img width="100%" style="max-width: 850px;"]http://www.byrdonline.com/evandabank/src/Abilities.png[/img]
+		[/td]
+	[/tr]
+
+	// Main content row with padding
+	// Main content row with padding
+	[tr]
+		[td padding="20px 15px"]
+			[table bgcolor="#3d2914" border="3px solid #FF8C00" border-radius="8px" cellpadding="0" cellspacing="0" width="100%"]
+				[tr]
+					[td padding="15px"]
+
+						// Passive title row
+						[responsive]
+							[row]
+								[col width="100%" bgcolor="#654321" margin="5px" padding="15px" border="3px solid #FF8C00"]
+									[size=20][color=#FFFFFF][b]Passive: Essence Theft[/b][/color][/size]
+								[/col]
+							[/row]
+						[/responsive]
+
+						// Video and text content row
+						[responsive]
+							[row margin="0px 15px" justify-content="space-evenly"]
+								[col width="300px" padding="10px"]
+									[webm url=https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0800/ability_0800_P1.mp4 width="275" autoplay]
+								[/col]
+								[col width="300px" padding="10px"]
+									[color=#FFFF99]Mel's passive allows her to stack essence on enemy champions. These stacks are crucial for her ultimate's execute potential and provide sustain throughout laning phase.[/color]
+
+									[size=14][color=#FFD700][b]Key Tips[/b][/color][/size]
+									[color=#FFFF99]• Stack management is essential for ultimate timing
+									• Passive stacks enable execute threshold indicators
+									• Multiple abilities can apply stacks efficiently[/color]
+								[/col]
+							[/row]
+						[/responsive]
+
+					[/td]
+				[/tr]
+			[/table]
+		[/td]
+	[/tr]
+[/table]
+// End main container
+
+// Navigation back to top
+[goto="Abilities"]Go to Top[/goto]

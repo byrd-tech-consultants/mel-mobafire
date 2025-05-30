@@ -12,18 +12,17 @@
 		[td padding="20px 15px"]
 			
 			[responsive]
+        [row]
+          [col width="100%"]
+            [size=20][color=#FFFFFF][b]Passive: Essence Theft[/b][/color][/size]
+          [/col]
+        [/row]
 				[row]
 					
 					[col width="48%" mobile-width="100%"]
 						
 						[table border="3px solid #FF8C00" border-radius="8px" cellpadding="0" cellspacing="0" width="100%"]
-							
-							[tr]
-								[td bgcolor="#d8433e" align="center" padding="15px"]
-									[size=20][color=#FFFFFF][b]Passive: Essence Theft[/b][/color][/size]
-								[/td]
-							[/tr]
-							
+
 							[tr]
 								[td bgcolor="#654321" padding="15px"]
 									
