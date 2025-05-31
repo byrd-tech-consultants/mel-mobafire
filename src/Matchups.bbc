@@ -1,56 +1,122 @@
-[anchor='pagename']
 
-// Main wrapper table with specified styling
+// Matchups section with improved responsive design
+[anchor='Matchups']
+
 [table bgcolor="#3d2914" border="3px solid #FF8C00" border-radius="8px" cellpadding="0" cellspacing="0" width="100%" style="min-width:340px; max-width: 780px;"]
-	
-	// Header banner section
+	// Header image row
 	[tr]
 		[td bgcolor="#3d2914" align="center"]
-			[img width="100%" style="max-width: 850px;"]http://www.byrdonline.com/evandabank/src/YourBanner.png[/img]
+			[img width="100%" style="max-width: 780px;"]http://www.byrdonline.com/evandabank/src/Matchups.png[/img]
 		[/td]
 	[/tr]
-	
-	// Main content section
+
+	// Table of contents section - improved responsive text
 	[tr]
-		[td bgcolor="#3d2914" style="padding: 20px;"]
-			
-			// Section title with orange styling
-			[center]
-				[size=5][color=#FF8C00][b]Your Section Title[/b][/color][/size]
-			[/center]
-			
-			// Decorative separator
-			[center]
-				[size=5][color=#FF8C00][b]═══════════════════════════════════════════════════[/b][/color][/size]
-			[/center]
-			
-			// Responsive content area
-			[responsive]
-				[row]
-					
-				[/row]
-			[/responsive]
-			
-			// Example with icons
-			[center]
-				Champion example: [icon=Ahri classic size=32]
-				Item example: [[Doran's Ring]]
-			[/center]
-			
-			// Text content section
-			[color=#FFFFFF]
-				Your main content text goes here. This will be white text on the brown background.
-			[/color]
-			
+		[td padding="20px 15px"]
+			[table border="3px solid #FF8C00" border-radius="8px" cellpadding="0" cellspacing="0" width="100%"]
+				[tr]
+					[td bgcolor="#654321" padding="15px 10px"]
+						[center][size=4][color=#FFFF99][b]Table of Contents[/b][/color][/size][/center]
+						[size=1][color=#FFFF99] [/color][/size]
+						[center][size=2][color=#FFFF99]
+							[goto="Ahri"]Ahri[/goto] | [goto="Akali"]Akali[/goto] | [goto="Akshan"]Akshan[/goto] | [goto="Anivia"]Anivia[/goto] | [goto="Annie"]Annie[/goto] | [goto="Aurelion Sol"]Aurelion Sol[/goto] | [goto="Aurora"]Aurora[/goto] | [goto="Azir"]Azir[/goto] | [goto="Cassiopeia"]Cassiopeia[/goto] | [goto="Corki"]Corki[/goto] | [goto="Diana"]Diana[/goto] | [goto="Ekko"]Ekko[/goto] | [goto="Ezreal"]Ezreal[/goto] | [goto="Fizz"]Fizz[/goto] | [goto="Galio"]Galio[/goto] | [goto="Garen"]Garen[/goto] | [goto="Gragas"]Gragas[/goto] | [goto="Heimerdinger"]Heimerdinger[/goto] | [goto="Hwei"]Hwei[/goto] | [goto="Irelia"]Irelia[/goto] | [goto="Jayce"]Jayce[/goto] | [goto="Kai'sa"]Kai'Sa[/goto] | [goto="Karma"]Karma[/goto] | [goto="Kassadin"]Kassadin[/goto] | [goto="Katarina"]Katarina[/goto] | [goto="Kayle"]Kayle[/goto] | [goto="LeBlanc"]LeBlanc[/goto] | [goto="Lissandra"]Lissandra[/goto] | [goto="Lucian"]Lucian[/goto] | [goto="Lux"]Lux[/goto] | [goto="Malphite"]Malphite[/goto] | [goto="Malzahar"]Malzahar[/goto] | [goto="Morgana"]Morgana[/goto] | [goto="Naafiri"]Naafiri[/goto] | [goto="Neeko"]Neeko[/goto] | [goto="Orianna"]Orianna[/goto] | [goto="Pantheon"]Pantheon[/goto] | [goto="Qiyana"]Qiyana[/goto] | [goto="Rumble"]Rumble[/goto] | [goto="Ryze"]Ryze[/goto] | [goto="Smolder"]Smolder[/goto] | [goto="Swain"]Swain[/goto] | [goto="Sylas"]Sylas[/goto] | [goto="Syndra"]Syndra[/goto] | [goto="Taliyah"]Taliyah[/goto] | [goto="Talon"]Talon[/goto] | [goto="Tristana"]Tristana[/goto] | [goto="Tryndamere"]Tryndamere[/goto] | [goto="Twisted Fate"]Twisted Fate[/goto] | [goto="Veigar"]Veigar[/goto] | [goto="Vel'Koz"]Vel'Koz[/goto] | [goto="Vex"]Vex[/goto] | [goto="Viktor"]Viktor[/goto]
+						[/color][/size][/center]
+					[/td]
+				[/tr]
+			[/table]
 		[/td]
 	[/tr]
-	
+
+	// Ahri matchup section - fully responsive design
+	[tr]
+		[td padding="15px 10px"]
+			[spoiler=Ahri]
+				[size=5][color=#FFD700][b][anchor=Ahri]Ahri[/b][/color][/size]
+				[size=1][color=#FFFF99] [/color][/size]
+
+				[responsive]
+					[row]
+						// Main content column - takes full width on mobile
+						[col width="100%" min-width="280px"]
+							[responsive]
+								[row align-items="flex-start"]
+									// Left side - matchup info
+									[col width="75%" min-width="220px"]
+										// Matchup difficulty
+										[size=4][color=#FFFF99][b]Matchup Difficulty[/b][/color][/size]
+										[size=1][color=#FFFF99] [/color][/size]
+										
+										[table border="2px solid #FF8C00" border-radius="8px" cellpadding="0" cellspacing="0" width="100%" style="max-width: 250px; min-width: 180px; border-collapse: collapse;"]
+											[tr]
+												[td bgcolor="#00ff00" width="10%" height="20px" style="border: 0;"][/td]
+												[td bgcolor="#33cc00" width="10%" height="20px" style="border: 0;"][/td]
+												[td bgcolor="#66aa00" width="10%" height="20px" style="border: 0;"][/td]
+												[td bgcolor="#998800" width="10%" height="20px" style="border: 0;"][/td]
+												[td bgcolor="#cc6600" width="10%" height="20px" style="border: 0;"][/td]
+												[td bgcolor="#333333" width="10%" height="20px" style="border: 0;"][/td]
+												[td bgcolor="#333333" width="10%" height="20px" style="border: 0;"][/td]
+												[td bgcolor="#333333" width="10%" height="20px" style="border: 0;"][/td]
+												[td bgcolor="#333333" width="10%" height="20px" style="border: 0;"][/td]
+												[td bgcolor="#333333" width="10%" height="20px" style="border: 0;"][/td]
+											[/tr]
+										[/table]
+										
+										[size=2][color=#FFFF99] [/color][/size]
+
+										// Summoners and Build on same line when space allows
+										[responsive]
+											[row]
+												// Summoners
+												[col width="50%" min-width="120px"]
+													[size=4][color=#FFFF99][b]Summoners[/b][/color][/size]
+													[size=1][color=#FFFF99] [/color][/size]
+													[icon=flash size=32] [icon=teleport size=32]
+												[/col]
+												
+												// Recommended build
+												[col width="50%" min-width="200px"]
+													[size=4][color=#FFFF99][b]Recommended Build[/b][/color][/size]
+													[size=1][color=#FFFF99] [/color][/size]
+													[icon=sorcerer's shoes size=35] [icon=blackfire torch size=35] [icon=liandry's torment size=35] [icon=rabadon's deathcap size=35] [icon=void staff size=35] [icon=zhonya's hourglass size=35]
+												[/col]
+											[/row]
+										[/responsive]
+									[/col]
+
+									// Right side - champion portrait
+									[col width="25%" min-width="80px"]
+										[center][icon=classic ahri size=125][/center]
+									[/col]
+								[/row]
+							[/responsive]
+						[/col]
+					[/row]
+				[/responsive]
+
+				// Spacing
+				[size=2][color=#FFFF99] [/color][/size]
+
+				// Strategy section - full width responsive text
+				[table bgcolor="#654321" border="3px solid #FF8C00" border-radius="8px" cellpadding="0" cellspacing="0" width="100%"]
+					[tr]
+						[td padding="15px 12px"]
+							[size=3][color=#FFFF99][b]Strategy[/b][/color][/size]
+							[size=1][color=#FFFF99] [/color][/size]
+							[color=#FFFF99][[Ahri]] is a fairly standard matchup for [[Tristana]] we need to be careful of her [[fox-fire]] as she can just walk up level 1 and get a good trade onto us. When she does this, make sure that we use [[explosive charge]] even if we only get 1 auto while it is active. This will always be an even trade.
+
+							The important thing to understand when playing into [[Ahri]] is to keep auto attacking when she is dashing around us. Ensure that we wiggle back and forth to dodge her [[charm]] and [[orb of deception]]. If we can do this, begin the trade at even health, and dodge at least ability, we will always win the trade.
+
+							When attempting to [[rocket jump]] onto Ahri for our standard trading pattern, jump slightly to the side of the Ahri. Most Ahri players will throw their [[charm]] in a straight line. If we jump at an angle, they will usually miss. If the Ahri holds the charm until after we land, begin wiggling so we can dodge it. If she holds the charm too long we will win the trade regardless as she will take too much damage from our auto attacks.
+
+							You can buffer Ahri's [[charm]] to effectively nullify her crowd control with your [[rocket jump]]. Check the INSERT PART WHERE THIS MECHANIC IS IN THE GUIDE section to learn how to buffer crowd control.[/color]
+						[/td]
+					[/tr]
+				[/table]
+			[/spoiler]
+		[/td]
+	[/tr]
 [/table]
 
-// Navigation to top
 [goto="Table of Contents"]Go to Top[/goto]
 
-// Decorative separator for page end
-[center]
-	[size=5][color=#FF8C00][b]═══════════════════════════════════════════════════[/b][/color][/size]
-[/center]
+[center][size=5][color=#FF8C00][b]═══════════════════════════════════════════════════[/b][/color][/size][/center]

@@ -1,4 +1,80 @@
-[anchor=Combos]
-[center][img]http://www.byrdonline.com/evandabank/src/Combos.png[/img][/center]
+[anchor='pagename']
 
-[center][size=5][color=#FF8C00][b]═══════════════════════════════════════════════════[/b][/color][/size][/center]
+// Main wrapper table with specified styling
+[table bgcolor="#3d2914" border="3px solid #FF8C00" border-radius="8px" cellpadding="0" cellspacing="0" width="100%" style="min-width:340px; max-width: 780px;"]
+	
+	// Header banner section
+	[tr]
+		[td bgcolor="#3d2914" align="center"]
+			[img width="100%" style="max-width: 850px;"]http://www.byrdonline.com/evandabank/src/YourBanner.png[/img]
+		[/td]
+	[/tr]
+	
+	// Main content section
+	[tr]
+		[td bgcolor="#3d2914" style="padding: 20px;"]
+			
+			// Section title with orange styling
+			[center]
+				[size=5][color=#FF8C00][b]Your Section Title[/b][/color][/size]
+			[/center]
+			
+			// Decorative separator
+			[center]
+				[size=5][color=#FF8C00][b]═══════════════════════════════════════════════════[/b][/color][/size]
+			[/center]
+			
+			// Responsive content area
+			[responsive]
+				[row]
+					[col width="50%"]
+						// Left column content
+						[center]
+							[table bgcolor="#8B4513" border-radius="8px" cellpadding="10" cellspacing="0" width="150px" height="45px"]
+								[tr]
+									[td align="center"]
+										[color=#FFD700][b]Button 1[/b][/color]
+									[/td]
+								[/tr]
+							[/table]
+						[/center]
+					[/col]
+					
+					[col width="50%"]
+						// Right column content
+						[center]
+							[table bgcolor="#8B4513" border-radius="8px" cellpadding="10" cellspacing="0" width="150px" height="45px"]
+								[tr]
+									[td align="center"]
+										[color=#FFD700][b]Button 2[/b][/color]
+									[/td]
+								[/tr]
+							[/table]
+						[/center]
+					[/col]
+				[/row]
+			[/responsive]
+			
+			// Example with icons
+			[center]
+				Champion example: [icon=Ahri classic size=32]
+				Item example: [[Doran's Ring]]
+			[/center]
+			
+			// Text content section
+			[color=#FFFFFF]
+				Your main content text goes here. This will be white text on the brown background.
+			[/color]
+			
+		[/td]
+	[/tr]
+	
+[/table]
+
+// Navigation to top
+[goto="Table of Contents"]Go to Top[/goto]
+
+// Decorative separator for page end
+[center]
+	[size=5][color=#FF8C00][b]═══════════════════════════════════════════════════[/b][/color][/size]
+[/center]
