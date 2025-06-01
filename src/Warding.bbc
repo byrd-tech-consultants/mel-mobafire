@@ -9,15 +9,47 @@
 	[tr]
 		[td padding="20px 15px"]
 			[responsive]
-				[row]
-					[col]
-						[color=#FFFF99]Warding can be a very confusing concept for most people, and at the most advanced forms of play, can require a lot of coordination. Let's try to keep it simple. [b]We always place a ward that we think can keep us alive if we see the enemy jungler[/b]. 
+				[row justify-content="space-around" width="90%"]
+					[col width="40%" min-width="250px" padding="10px" align="center"]
+						[img width="100%" style="max-width: 250px;"]http://www.byrdonline.com/evandabank/src/Warding1.png[/img]
+					[/col]
+					[col width="50%" padding="10px"]
+						[color=#FFD700][size=16][b]Ward Placement Philosophy[/b][/size][/color]
 
-						For example, warding the river bushes against [[Shaco]] doesn't do anything. He is just going to use his Q over the wall. Instead, we want to ward his jungle camps (usually raptors). The same is true for champions like [[Evelynn]] and [[Twitch]]. 
+						[color=#FFFF99]Warding can be a very confusing concept for most people, and at the most advanced forms of play, can require a lot of coordination. Let's try to keep it simple. [b]We always place a ward that we think can keep us alive if we see the enemy jungler[/b].[/color]
+					[/col]
+				[/row]
 
-						Against more typical junglers, we want to ward the river bush that the enemy jungler is expected to come from. If we believe that the enemy is clearing from top to bot (80% of games this is true), then we can place a ward on the bottom river bush at 3:00. Why 3:00? Most junglers will fullclear or take 5 camps before ganking, this typically happens around the 3:00-3:30 mark. 
+				[row justify-content="space-around" width="90%"]
+					[col width="50%" padding="10px"]
+						[color=#FFD700][size=16][b]Stealth Champion Warding[/b][/size][/color]
 
-						Lastly, if we are against an enemy jungler that loves to level 3 gank (Ex. [[Rek'Sai]], [[Elise]]) then we want to place an early ward on the side that the enemy jungler begins clearing on (place a ward in top river bush if they start topside).[/color]
+						[color=#FFFF99]For example, warding the river bushes against [[Shaco]] doesn't do anything. He is just going to use his Q over the wall. Instead, we want to ward his jungle camps (usually raptors). The same is true for champions like [[Evelynn]] and [[Twitch]].[/color]
+					[/col]
+					[col width="40%" min-width="250px" padding="10px" align="center"]
+						[img width="100%" style="max-width: 250px;"]http://www.byrdonline.com/evandabank/src/Warding2.png[/img]
+					[/col]
+				[/row]
+
+				[row justify-content="space-around" width="90%"]
+					[col width="40%" min-width="250px" padding="10px" align="center"]
+						[img width="100%" style="max-width: 250px;"]http://www.byrdonline.com/evandabank/src/Warding3.png[/img]
+					[/col]
+					[col width="50%" padding="10px"]
+						[color=#FFD700][size=16][b]Standard Jungler Warding[/b][/size][/color]
+
+						[color=#FFFF99]Against more typical junglers, we want to ward the river bush that the enemy jungler is expected to come from. If we believe that the enemy is clearing from top to bot (80% of games this is true), then we can place a ward on the bottom river bush at 3:00. Why 3:00? Most junglers will fullclear or take 5 camps before ganking, this typically happens around the 3:00-3:30 mark.[/color]
+					[/col]
+				[/row]
+
+				[row justify-content="space-around" width="90%"]
+					[col width="50%" padding="10px"]
+						[color=#FFD700][size=16][b]Early Game Gankers[/b][/size][/color]
+
+						[color=#FFFF99]Lastly, if we are against an enemy jungler that loves to level 3 gank (Ex. [[Rek'Sai]], [[Elise]]) then we want to place an early ward on the side that the enemy jungler begins clearing on (place a ward in top river bush if they start topside).[/color]
+					[/col]
+					[col width="40%" min-width="250px" padding="10px" align="center"]
+						[img width="100%" style="max-width: 250px;"]http://www.byrdonline.com/evandabank/src/Warding4.png[/img]
 					[/col]
 				[/row]
 			[/responsive]
