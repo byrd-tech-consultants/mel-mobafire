@@ -1,7 +1,5 @@
-
 // Matchups section with improved responsive design
 [anchor='Matchups']
-
 [table bgcolor="#3d2914" border="3px solid #FF8C00" border-radius="8px" cellpadding="0" cellspacing="0" width="100%" style="min-width:340px; max-width: 780px;"]
 	// Header image row
 	[tr]

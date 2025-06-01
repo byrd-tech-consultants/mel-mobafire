@@ -1,4 +1,36 @@
-[anchor="Game Phases"]
-[center][img]http://www.byrdonline.com/evandabank/src/GamePhases.png[/img][/center]
+[anchor='Game Phases']
+[table bgcolor="#3d2914" border="3px solid #FF8C00" border-radius="8px" cellpadding="0" cellspacing="0" width="100%" min-width="340px" max-width="780px"]
+[tr]
+[td bgcolor="#3d2914" align="center"]
+[img width="100%" max-width="850px"]http://www.byrdonline.com/evandabank/src/GamePhases.png[/img]
+[/td]
+[/tr]
+
+[tr]
+[td padding="20px 15px"]
+[responsive]
+[row]
+[col]
+[size=4][color=#FF8C00][b]Game Phases[/b][/color][/size]
+
+The bulk of the gameplay will be separated into different sections, with the primary focus being on the laning Phase. The phases of the game are as follows: [b][color=#FFD700]Early-Game/Laning Phase > Mid-Game > Late-Game[/color][/b]. 
+
+The early-game is characterized by laning and often ends around 14-15 minutes with the first towers following. During this phase, the game is very structured and there is almost a science to how it is played. Everything from warding, jungle tracking, trading, and roaming can be followed down to a T by advanced players. 
+
+After this phase, the game gets a lot trickier as turrets begin to fall. This enables champions to roam around the map and cause chaos. To make matters more complicated, burst champions, especially those with stealth are active with their first items, making life very hard for mages. 
+
+The mid-game is characterized by botlane and midlane swapping (often toplane will swap as well), with lane assignments becoming more fluid. Our playstyle will switch from being an long-range mage to playing for survival in the much longer sidelanes. 
+
+From this point in the game onwards, objectives will define the flow of the game, as everyone is attempting to farm for items, reset on proper timers, and generally be as strong as possible for each objective that spawns. Most higher elo games will end during this phase. 
+
+If the game makes it out of mid-game, this is characterized by champions having 4-6 items, towers being fallen, and death timers being so long that losing a teamfight will likely result in losing the entire game.
+[/col]
+[/row]
+[/responsive]
+[/td]
+[/tr]
+[/table]
+
+[goto="Table of Contents"]Go to Top[/goto]
 
 [center][size=5][color=#FF8C00][b]═══════════════════════════════════════════════════[/b][/color][/size][/center]

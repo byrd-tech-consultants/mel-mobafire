@@ -1,19 +1,28 @@
-[anchor=Warding]
-[center][img]http://www.byrdonline.com/evandabank/src/Warding.png[/img][/center]
+[anchor='Warding']
+[table bgcolor="#3d2914" border="3px solid #FF8C00" border-radius="8px" cellpadding="0" cellspacing="0" width="100%" style="min-width:340px; max-width: 780px;"]
+	[tr]
+		[td bgcolor="#3d2914" align="center"]
+			[img width="100%" style="max-width: 850px;"]http://www.byrdonline.com/evandabank/src/Warding.png[/img]
+		[/td]
+	[/tr]
 
-[table height=10]
-[/table]
+	[tr]
+		[td padding="20px 15px"]
+			[responsive]
+				[row]
+					[col]
+						[color=#FFFF99]Warding can be a very confusing concept for most people, and at the most advanced forms of play, can require a lot of coordination. Let's try to keep it simple. [b]We always place a ward that we think can keep us alive if we see the enemy jungler[/b]. 
 
-[table border="3px solid #FF8C00" border-radius="8px" cellpadding="0" cellspacing="0" width="100%"]
-[tr]
-[td bgcolor="#654321" padding="20px"][color=#FFFF99]Warding can be a very confusing concept for most people, and at the most advanced forms of play, can require a lot of coordination. Let's try to keep it simple. [b]We always place a ward that we think can keep us alive if we see the enemy jungler[/b]. 
+						For example, warding the river bushes against [[Shaco]] doesn't do anything. He is just going to use his Q over the wall. Instead, we want to ward his jungle camps (usually raptors). The same is true for champions like [[Evelynn]] and [[Twitch]]. 
 
-For example, warding the river bushes against [[Shaco]] doesn't do anything. He is just going to use his Q over the wall. Instead, we want to ward his jungle camps (usually raptors). The same is true for champions like [[Evelynn]] and [[Twitch]]. 
+						Against more typical junglers, we want to ward the river bush that the enemy jungler is expected to come from. If we believe that the enemy is clearing from top to bot (80% of games this is true), then we can place a ward on the bottom river bush at 3:00. Why 3:00? Most junglers will fullclear or take 5 camps before ganking, this typically happens around the 3:00-3:30 mark. 
 
-Against more typical junglers, we want to ward the river bush that the enemy jungler is expected to come from. If we believe that the enemy is clearing from top to bot (80% of games this is true), then we can place a ward on the bottom river bush at 3:00. Why 3:00? Most junglers will fullclear or take 5 camps before ganking, this typically happens around the 3:00-3:30 mark. 
-
-Lastly, if we are against an enemy jungler that loves to level 3 gank (Ex. [[Rek'Sai]], [[Elise]]) then we want to place an early ward on the side that the enemy jungler begins clearing on (place a ward in top river bush if they start topside).[/color][/td]
-[/tr]
+						Lastly, if we are against an enemy jungler that loves to level 3 gank (Ex. [[Rek'Sai]], [[Elise]]) then we want to place an early ward on the side that the enemy jungler begins clearing on (place a ward in top river bush if they start topside).[/color]
+					[/col]
+				[/row]
+			[/responsive]
+		[/td]
+	[/tr]
 [/table]
 
 [goto="Table of Contents"]Go to Top[/goto]

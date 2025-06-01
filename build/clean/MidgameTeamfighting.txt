@@ -1,4 +1,42 @@
-[anchor="Midgame Teamfighting"]
-[center][img]http://www.byrdonline.com/evandabank/src/MidgameTeamfighting.png[/img][/center]
+[anchor='Midgame Teamfighting']
+[table bgcolor="#3d2914" border="3px solid #FF8C00" border-radius="8px" cellpadding="0" cellspacing="0" width="100%" style="min-width:340px; max-width: 780px;"]
+[tr]
+[td bgcolor="#3d2914" align="center"]
+[img width="100%" style="max-width: 850px;"]http://www.byrdonline.com/evandabank/src/MidgameTeamfighting.png[/img]
+[/td]
+[/tr]
+
+[tr]
+[td padding="20px 15px"]
+[responsive]
+[row]
+[col]
+[color=#FFD700][b]Assessing Threats[/b][/color]
+
+Usually in the midgame, someone on each team will have A LOT of gold and be a clear threat. Whether its the enemy toplaner or ADC with 10 kills, we always need to be aware of who is the largest priority for us. In the same vein, some enemy champions may be useless after the laning phase, struggling to complete these first items. Stay aware of the gamestate and the first rule of mid-game teamfighting is this: Do I need/should I fight?
+
+[color=#FFD700][b]The Golden Rule: Should I Fight?[/b][/color]
+
+The answer will often be yes, but sometimes the answer will be no. It is too often that games are thrown in a dragon fight that is CLEARLY not winnable. If an enemy [[Ezreal]] has a full 2-items and nobody on your team has the damage to kill him, you will lose the fight unless the [[Ezreal]] does something horribly wrong. Do not be afraid to give objectives in conditions like this.
+
+[color=#FFD700][b]Mage Positioning & Targeting[/b][/color]
+
+If you do decide to fight the objective, our job as a mage is to stand far back, using our spells from range, and only targeting enemy squishy targets who find themselves overextended. With proper positioning, we stand back and allow our frontline to engage and tank damage for us. Ensure that you use spells on the highest priority target in range (a fed enemy or an enemy carry is of high priority), or that we target the same enemy as our teammates.
+
+[color=#FFD700][b]Situational Awareness[/b][/color]
+
+While mage team-fighting seems simple, just stand far back and target enemies in your range, it requires situational awareness and understanding of where the enemy champions are- standing far back is useless if the enemy [[Qiyana]] comes from behind and oneshots you.
+
+[color=#FFD700][b]Communication & Flexibility[/b][/color]
+
+Always remain aware of the conditions of the fight, communicating with your teammates, and willing to give the objective should conditions become unplayable for your team.
+[/col]
+[/row]
+[/responsive]
+[/td]
+[/tr]
+[/table]
+
+[goto="Table of Contents"]Go to Top[/goto]
 
 [center][size=5][color=#FF8C00][b]═══════════════════════════════════════════════════[/b][/color][/size][/center]

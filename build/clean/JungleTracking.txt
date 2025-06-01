@@ -1,4 +1,42 @@
-[anchor="Jungle Tracking"]
-[center][img]http://www.byrdonline.com/evandabank/src/JungleTracking.png[/img][/center]
+[anchor='Jungle Tracking']
+[table bgcolor="#3d2914" border="3px solid #FF8C00" border-radius="8px" cellpadding="0" cellspacing="0" width="100%" style="min-width:340px; max-width: 780px;"]
+[tr]
+[td bgcolor="#3d2914" align="center"]
+[img width="100%" style="max-width: 850px;"]http://www.byrdonline.com/evandabank/src/JungleTracking.png[/img]
+[/td]
+[/tr]
+
+[tr]
+[td padding="20px 15px"]
+[responsive]
+[row]
+[col]
+[color=#FFD700][b]Why Jungle Tracking Matters for Mid[/b][/color]
+
+Since midlane is in the center of the map, we are TWICE as likely to be ganked as any other lane. The enemy jungler will always be close to us, within a 20 second walk, and will sacrifice very little in order to gank us.
+
+[color=#FFD700][b]Understanding the Difference[/b][/color]
+
+As a bot laner, knowing that the enemy jungler is taking Krugs on the opposite side of the map, allows you to play aggressive, pushing your lead without fear of overextending and being punished. As a midlaner, we don't have this luxury.
+
+[color=#FFD700][b]Champion-Specific Patterns[/b][/color]
+
+In order to track the enemy jungler, it requires a certain amount of game knowledge and understanding of how certain champions want to play. Some champions want to gank at Level 3, some want to fullclear into a gank. Some players will even do a unique clear on each champion. A good example of this is [[Shaco]], where some players prefer to fullclear and others prefer to Level 3 gank in every game.
+
+[color=#FFD700][b]Timing Expectations[/b][/color]
+
+Generally speaking, if someone is clearing from top to bot, we can expect that they will either gank us from the topside before 3:00 or from the bottom side after 3:00. We know this because of how long it takes for them to clear camps and which camps they are likely to be clearing at specific points in the game.
+
+[color=#FFD700][b]Practical Application[/b][/color]
+
+There are two things to note here. We can place a ward on their raptors at the start of the game, giving us an idea of what side of the map they are starting on (most junglers either start raptors or take this camp 3rd before ganking). Once we find the enemy jungler, we want to hover on the opposite side of the lane. I.E, if we know the enemy jungler is topside, standing closer to the bot river will give us safer positioning. As a side note, it is also better to place a ward on the side of the map that we know the enemy jungler will be coming from OR an area that the enemy jungler must cross through to get to the other side of the map.
+[/col]
+[/row]
+[/responsive]
+[/td]
+[/tr]
+[/table]
+
+[goto="Table of Contents"]Go to Top[/goto]
 
 [center][size=5][color=#FF8C00][b]═══════════════════════════════════════════════════[/b][/color][/size][/center]

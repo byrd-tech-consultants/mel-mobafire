@@ -1,4 +1,42 @@
-[anchor="Midgame"]
-[center][img]http://www.byrdonline.com/evandabank/src/Midgame.png[/img][/center]
+[anchor='Midgame']
+[table bgcolor="#3d2914" border="3px solid #FF8C00" border-radius="8px" cellpadding="0" cellspacing="0" width="100%" style="min-width:340px; max-width: 780px;"]
+	[tr]
+		[td bgcolor="#3d2914" align="center"]
+			[img width="100%" style="max-width: 850px;"]http://www.byrdonline.com/evandabank/src/Midgame.png[/img]
+		[/td]
+	[/tr]
+
+	[tr]
+		[td padding="20px 15px"]
+			[responsive]
+				[row]
+					[col]
+						[color=#FFD700][b]Lane Assignments[/b][/color]
+						
+						During the mid-game, our botlane/support duo will typically be farming the midwaves as we farm either the bot or top waves. Regardless of which sidelane we are farming, our playstyle is going to remain similar but will change slightly depending on the champions we are playing against.
+						
+						[color=#FFD700][b]Global Ultimate Threats[/b][/color]
+						
+						First thing to note, does the enemy have a global ultimate that can catch us extended. Example of this are [[Twisted Fate]], [[Nocturne]], [[Ashe]], etc. If this is the case, we need to be extremely cautious, ensuring that we never overstep if these abilities are off cooldown.
+						
+						[color=#FFD700][b]Matchup Assessment[/b][/color]
+						
+						Second, we need to examine how threatening the enemy champion we are laning against is. First, are we laning against the enemy toplaner or midlaner? If we are laning against the enemy midlaner, you should have an idea of how strong they are and accordingly, how aggressively you can trade against them.
+						
+						[color=#FFD700][b]Toplaner Matchups - High Danger[/b][/color]
+						
+						If you are laning against the enemy toplaner, this can become much trickier and very dangerous in the sidelanes. The majority of toplaners will be melee champions that can kill us quickly in melee range. Examples include [[Fiora]], [[Renekton]], [[Riven]], [[Ambessa]], etc. We absolutely MUST respect their damage, and sadly, [[Mel]] doesn't have the damage unless she is very far ahead, to kill these tanky bruisers.
+						
+						[color=#FFD700][b]Safe Sidelane Strategy[/b][/color]
+						
+						In this case, we want to clear waves and stay safe under our tower, landing poke, and seldom playing aggressive unless we are positive we can land a kill OR someone else on our team is present to protect us.
+					[/col]
+				[/row]
+			[/responsive]
+		[/td]
+	[/tr]
+[/table]
+
+[goto="Table of Contents"]Go to Top[/goto]
 
 [center][size=5][color=#FF8C00][b]═══════════════════════════════════════════════════[/b][/color][/size][/center]

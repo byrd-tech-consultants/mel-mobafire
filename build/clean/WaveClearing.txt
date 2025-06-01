@@ -1,16 +1,25 @@
-[anchor="Wave Clearing"]
-[center][img]http://www.byrdonline.com/evandabank/src/WaveClearing.png[/img][/center]
-
-[table height=10]
-[/table]
-
-[table border="3px solid #FF8C00" border-radius="8px" cellpadding="0" cellspacing="0" width="100%"]
+[anchor='Wave Clearing']
+[table bgcolor="#3d2914" border="3px solid #FF8C00" border-radius="8px" cellpadding="0" cellspacing="0" width="100%" style="min-width:340px; max-width: 780px;"]
 [tr]
-[td bgcolor="#654321" padding="20px"][color=#FFFF99]Early game waveclear as [[Mel]] can be tough. This is true for most mages, though some champions like [[Ahri]] and [[Syndra]] can do a better job than we can. The aim of the game is to push as fast as possible. When the enemy is not in our range, constantly auto the wave - do not stop. 
+[td bgcolor="#3d2914" align="center"]
+[img width="100%" style="max-width: 850px;"]http://www.byrdonline.com/evandabank/src/WaveClearing.png[/img]
+[/td]
+[/tr]
+
+[tr]
+[td padding="20px 15px"]
+[responsive]
+[row]
+[col]
+[color=#FFFF99]Early game waveclear as [[Mel]] can be tough. This is true for most mages, though some champions like [[Ahri]] and [[Syndra]] can do a better job than we can. The aim of the game is to push as fast as possible. When the enemy is not in our range, constantly auto the wave - do not stop. 
 
 What we want to avoid however, is wasting our spells and mana on the wave. If we have the opportunity, it is ideal to hit both the enemy and the minion wave with our abilities, but do not be spamming your spells on the wave before you have [[Lost Chapter]]. 
 
-Lastly, ensure that you focus caster minions first if you can. They do more damage and killing them before melee minions will cause your wave to push faster.[/color][/td]
+Lastly, ensure that you focus caster minions first if you can. They do more damage and killing them before melee minions will cause your wave to push faster.[/color]
+[/col]
+[/row]
+[/responsive]
+[/td]
 [/tr]
 [/table]
 

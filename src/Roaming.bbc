@@ -1,4 +1,38 @@
-[anchor=Roaming]
-[center][img]http://www.byrdonline.com/evandabank/src/Roaming.png[/img][/center]
+[anchor='Roaming']
+[table bgcolor="#3d2914" border="3px solid #FF8C00" border-radius="8px" cellpadding="0" cellspacing="0" width="100%" style="min-width:340px; max-width: 780px;"]
+	[tr]
+		[td bgcolor="#3d2914" align="center"]
+			[img width="100%" style="max-width: 850px;"]http://www.byrdonline.com/evandabank/src/Roaming.png[/img]
+		[/td]
+	[/tr]
+
+	[tr]
+		[td padding="20px 15px"]
+			[responsive]
+				[row]
+					[col]
+						[color=#FFD700][b]Why Roam?[/b][/color]
+						
+						Roaming is the best way to climb when playing midlane. Obtaining a 40cs lead by staying in lane and bullying your opponent IS effective, but what is even better, is killing the enemy laners/jungler and preventing them from threatening your carry potential.
+						
+						[color=#FFD700][b]Wave Management for Roaming[/b][/color]
+						
+						In order to roam, we need to shove waves. By shoving waves (clearing them as fast as possible), we are setting us up for a timer to move. The enemy laner, if they cannot keep up with our waveclear, will be forced to farm the wave under their tower. Now, utilizing this timer, we can move around the map freely, only returning once we need to clear/push the next wave.
+						
+						[color=#FFD700][b]Jungle Coordination[/b][/color]
+						
+						When we roam around the map, we want to look for opportunities to kill the opponent and invade the enemy jungle. As Mel though, we cannot invade a jungler by ourselves. This will require coordination with our own jungler, ensuring that we are moving at the same time to contest the opponents camps.
+						
+						[color=#FFD700][b]Ganking Strategy[/b][/color]
+						
+						In the event that we look to gank another lane with our roaming timer, we're trying to find any laners that are overextended in the lane, pushing for plates or generally far away from their tower/teammates. The general thought process behind a midlaner ganking is similar to ganking as a jungler, except we don't need to farm jungle camps on the way, and are free to gank whichever lane is most likely to result in a kill.
+					[/col]
+				[/row]
+			[/responsive]
+		[/td]
+	[/tr]
+[/table]
+
+[goto="Table of Contents"]Go to Top[/goto]
 
 [center][size=5][color=#FF8C00][b]═══════════════════════════════════════════════════[/b][/color][/size][/center]
