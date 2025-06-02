@@ -1,34 +1,77 @@
-[anchor='Matchups']
-[table bgcolor="#3d2914" border="3px solid #FF8C00" border-radius="8px" cellpadding="0" cellspacing="0" width="100%" style="min-width:340px; max-width: 780px;"]
-	// Header image row
-	[tr]
-		[td bgcolor="#3d2914" align="center"]
-			[img width="100%" style="max-width: 780px;"]http://www.byrdonline.com/evandabank/src/Matchups.png[/img]
-		[/td]
-	[/tr]
+import re
 
-	// Table of contents section - improved responsive text
-	// [tr]
-		// [td padding="20px 15px"]
-			// [table border="3px solid #FF8C00" border-radius="8px" cellpadding="0" cellspacing="0" width="100%"]
-				// [tr]
-					// [td bgcolor="#654321" padding="15px 10px"]
-						// [center][size=4][color=#FFFF99][b]Table of Contents[/b][/color][/size][/center]
-						// [size=1][color=#FFFF99] [/color][/size]
-						//[center][size=2][color=#FFFF99]
-							//[goto="Ahri"]Ahri[/goto] | [goto="Akali"]Akali[/goto] | [goto="Akshan"]Akshan[/goto] | [goto="Anivia"]Anivia[/goto] | [goto="Annie"]Annie[/goto] | [goto="Aurelion Sol"]Aurelion Sol[/goto] | [goto="Aurora"]Aurora[/goto] | [goto="Azir"]Azir[/goto] | [goto="Cassiopeia"]Cassiopeia[/goto] | [goto="Corki"]Corki[/goto] | [goto="Diana"]Diana[/goto] | [goto="Ekko"]Ekko[/goto] | [goto="Ezreal"]Ezreal[/goto] | [goto="Fizz"]Fizz[/goto] | [goto="Galio"]Galio[/goto] | [goto="Garen"]Garen[/goto] | [goto="Gragas"]Gragas[/goto] | [goto="Heimerdinger"]Heimerdinger[/goto] | [goto="Hwei"]Hwei[/goto] | [goto="Irelia"]Irelia[/goto] | [goto="Jayce"]Jayce[/goto] | [goto="Kai'sa"]Kai'Sa[/goto] | [goto="Karma"]Karma[/goto] | [goto="Kassadin"]Kassadin[/goto] | [goto="Katarina"]Katarina[/goto] | [goto="Kayle"]Kayle[/goto] | [goto="LeBlanc"]LeBlanc[/goto] | [goto="Lissandra"]Lissandra[/goto] | [goto="Lucian"]Lucian[/goto] | [goto="Lux"]Lux[/goto] | [goto="Malphite"]Malphite[/goto] | [goto="Malzahar"]Malzahar[/goto] | [goto="Morgana"]Morgana[/goto] | [goto="Naafiri"]Naafiri[/goto] | [goto="Neeko"]Neeko[/goto] | [goto="Orianna"]Orianna[/goto] | [goto="Pantheon"]Pantheon[/goto] | [goto="Qiyana"]Qiyana[/goto] | [goto="Rumble"]Rumble[/goto] | [goto="Ryze"]Ryze[/goto] | [goto="Smolder"]Smolder[/goto] | [goto="Swain"]Swain[/goto] | [goto="Sylas"]Sylas[/goto] | [goto="Syndra"]Syndra[/goto] | [goto="Taliyah"]Taliyah[/goto] | [goto="Talon"]Talon[/goto] | [goto="Tristana"]Tristana[/goto] | [goto="Tryndamere"]Tryndamere[/goto] | [goto="Twisted Fate"]Twisted Fate[/goto] | [goto="Veigar"]Veigar[/goto] | [goto="Vel'Koz"]Vel'Koz[/goto] | [goto="Vex"]Vex[/goto] | [goto="Viktor"]Viktor[/goto]
-						//[/color][/size][/center]
-					//[/td]
-				//[/tr]
-			//[/table]
-		//[/td]
-	//[/tr]
+def move_anchors_inside_spoilers(text):
+    """
+    Moves anchor tags from outside spoilers to inside spoilers.
+    Handles the full content within the main [td] containing all champions.
+    
+    Transforms:
+    [anchor=ChampionName]
+    [responsive]
+        [row]
+            [col width="100%"]
+                [spoiler=ChampionName]
+                [size=5][color=#FFD700][b]ChampionName[/b][/color][/size]
+    
+    To:
+    [responsive]
+        [row]
+            [col width="100%"]
+                [spoiler=ChampionName]
+                [anchor=ChampionName]
+                [size=5][color=#FFD700][b]ChampionName[/b][/color][/size]
+    """
+    
+    lines = text.split('\n')
+    result_lines = []
+    i = 0
+    
+    while i < len(lines):
+        line = lines[i]
+        stripped_line = line.strip()
+        
+        # Check if this line is an anchor
+        if stripped_line.startswith('[anchor=') and stripped_line.endswith(']'):
+            anchor_line = stripped_line
+            
+            # Skip the anchor line and look for the spoiler
+            i += 1
+            
+            # Copy lines until we find the spoiler
+            while i < len(lines):
+                current_line = lines[i]
+                current_stripped = current_line.strip()
+                
+                if current_stripped.startswith('[spoiler='):
+                    # Found the spoiler - add it and then add the anchor with proper indentation
+                    result_lines.append(current_line)
+                    # Match the indentation of the spoiler line and add one more tab
+                    indent = len(current_line) - len(current_line.lstrip())
+                    anchor_with_indent = ' ' * (indent + 6) + anchor_line
+                    result_lines.append(anchor_with_indent)
+                    i += 1
+                    break
+                else:
+                    # Not the spoiler yet, keep this line
+                    result_lines.append(current_line)
+                    i += 1
+        else:
+            # Not an anchor line, keep as is
+            result_lines.append(lines[i])
+            i += 1
+    
+    return '\n'.join(result_lines)
 
-	// All champion matchups section
-	[tr]
-		[td padding="20px 15px"]
+def fix_all_anchors(bbcode_content):
+    """
+    Main function to fix all anchors in BBCode content.
+    This moves anchors from outside spoilers to inside spoilers.
+    Designed to work with the full content of all champions within the main [td].
+    """
+    return move_anchors_inside_spoilers(bbcode_content)
 
-			
+# Put your BBCode content between the triple quotes below:
+bbcode_input = """
 [responsive]
 				[row]
 					[col width="100%"]
@@ -113,11 +156,11 @@
 				[/row]
 			[/responsive]
 
+			[anchor=Akali]
 			[responsive]
 				[row]
 					[col width="100%"]
 						[spoiler=Akali]
-            [anchor=Akali]
 						[size=5][color=#FFD700][b]Akali[/b][/color][/size]
 						[size=1][color=#FFFF99] [/color][/size]
 
@@ -189,11 +232,11 @@
 				[/row]
 			[/responsive]
 
+			[anchor=Akshan]
 			[responsive]
 				[row]
 					[col width="100%"]
 						[spoiler=Akshan]
-            [anchor=Akshan]
 						[size=5][color=#FFD700][b]Akshan[/b][/color][/size]
 						[size=1][color=#FFFF99] [/color][/size]
 
@@ -265,11 +308,11 @@
 				[/row]
 			[/responsive]
 
+			[anchor=Anivia]
 			[responsive]
 				[row]
 					[col width="100%"]
 						[spoiler=Anivia]
-            [anchor=Anivia]
 						[size=5][color=#FFD700][b]Anivia[/b][/color][/size]
 						[size=1][color=#FFFF99] [/color][/size]
 
@@ -344,11 +387,11 @@
 			// Continue with more champions following the same pattern...
 			// Each champion gets its own responsive row structure
 
+			[anchor=Annie]
 			[responsive]
 				[row]
 					[col width="100%"]
 						[spoiler=Annie]
-            [anchor=Annie]
 						[size=5][color=#FFD700][b]Annie[/b][/color][/size]
 						[size=1][color=#FFFF99] [/color][/size]
 
@@ -420,11 +463,11 @@
 				[/row]
 			[/responsive]
 
+			[anchor="Aurelion Sol"]
 			[responsive]
 				[row]
 					[col width="100%"]
 						[spoiler="Aurelion Sol"]
-            [anchor="Aurelion Sol"]
 						[size=5][color=#FFD700][b]Aurelion Sol[/b][/color][/size]
 						[size=1][color=#FFFF99] [/color][/size]
 
@@ -496,11 +539,11 @@
 				[/row]
 			[/responsive]
 
+			[anchor=Aurora]
 			[responsive]
 				[row]
 					[col width="100%"]
 						[spoiler=Aurora]
-            [anchor=Aurora]
 						[size=5][color=#FFD700][b]Aurora[/b][/color][/size]
 						[size=1][color=#FFFF99] [/color][/size]
 
@@ -572,11 +615,11 @@
 				[/row]
 			[/responsive]
 
+			[anchor=Azir]
 			[responsive]
 				[row]
 					[col width="100%"]
 						[spoiler=Azir]
-            [anchor=Azir]
 						[size=5][color=#FFD700][b]Azir[/b][/color][/size]
 						[size=1][color=#FFFF99] [/color][/size]
 
@@ -648,11 +691,11 @@
 				[/row]
 			[/responsive]
 
+			[anchor=Cassiopeia]
 			[responsive]
 				[row]
 					[col width="100%"]
 						[spoiler=Cassiopeia]
-            [anchor=Cassiopeia]
 						[size=5][color=#FFD700][b]Cassiopeia[/b][/color][/size]
 						[size=1][color=#FFFF99] [/color][/size]
 
@@ -724,11 +767,11 @@
 				[/row]
 			[/responsive]
 
+			[anchor=Corki]
 			[responsive]
 				[row]
 					[col width="100%"]
 						[spoiler=Corki]
-            [anchor=Corki]
 						[size=5][color=#FFD700][b]Corki[/b][/color][/size]
 						[size=1][color=#FFFF99] [/color][/size]
 
@@ -800,11 +843,11 @@
 				[/row]
 			[/responsive]
 
+			[anchor=Diana]
 			[responsive]
 				[row]
 					[col width="100%"]
 						[spoiler=Diana]
-            [anchor=Diana]
 						[size=5][color=#FFD700][b]Diana[/b][/color][/size]
 						[size=1][color=#FFFF99] [/color][/size]
 
@@ -877,11 +920,11 @@
 			[/responsive]
 
 
+			[anchor=Ekko]
 			[responsive]
 				[row]
 					[col width="100%"]
 						[spoiler=Ekko]
-            [anchor=Ekko]
 						[size=5][color=#FFD700][b]Ekko[/b][/color][/size]
 						[size=1][color=#FFFF99] [/color][/size]
 
@@ -953,11 +996,11 @@
 				[/row]
 			[/responsive]
 
+			[anchor=Ezreal]
 			[responsive]
 				[row]
 					[col width="100%"]
 						[spoiler=Ezreal]
-            [anchor=Ezreal]
 						[size=5][color=#FFD700][b]Ezreal[/b][/color][/size]
 						[size=1][color=#FFFF99] [/color][/size]
 
@@ -1029,11 +1072,11 @@
 				[/row]
 			[/responsive]
 
+			[anchor=Fizz]
 			[responsive]
 				[row]
 					[col width="100%"]
 						[spoiler=Fizz]
-            [anchor=Fizz]
 						[size=5][color=#FFD700][b]Fizz[/b][/color][/size]
 						[size=1][color=#FFFF99] [/color][/size]
 
@@ -1105,11 +1148,11 @@
 				[/row]
 			[/responsive]
 
+			[anchor=Galio]
 			[responsive]
 				[row]
 					[col width="100%"]
 						[spoiler=Galio]
-            [anchor=Galio]
 						[size=5][color=#FFD700][b]Galio[/b][/color][/size]
 						[size=1][color=#FFFF99] [/color][/size]
 
@@ -1181,11 +1224,11 @@
 				[/row]
 			[/responsive]
 
+			[anchor=Garen]
 			[responsive]
 				[row]
 					[col width="100%"]
 						[spoiler=Garen]
-            [anchor=Garen]
 						[size=5][color=#FFD700][b]Garen[/b][/color][/size]
 						[size=1][color=#FFFF99] [/color][/size]
 
@@ -1257,11 +1300,11 @@
 				[/row]
 			[/responsive]
 
+			[anchor=Gragas]
 			[responsive]
 				[row]
 					[col width="100%"]
 						[spoiler=Gragas]
-            [anchor=Gragas]
 						[size=5][color=#FFD700][b]Gragas[/b][/color][/size]
 						[size=1][color=#FFFF99] [/color][/size]
 
@@ -1333,11 +1376,11 @@
 				[/row]
 			[/responsive]
 
+			[anchor=Heimerdinger]
 			[responsive]
 				[row]
 					[col width="100%"]
 						[spoiler=Heimerdinger]
-            [anchor=Heimerdinger]
 						[size=5][color=#FFD700][b]Heimerdinger[/b][/color][/size]
 						[size=1][color=#FFFF99] [/color][/size]
 
@@ -1409,11 +1452,11 @@
 				[/row]
 			[/responsive]
 
+			[anchor=Hwei]
 			[responsive]
 				[row]
 					[col width="100%"]
 						[spoiler=Hwei]
-            [anchor=Hwei]
 						[size=5][color=#FFD700][b]Hwei[/b][/color][/size]
 						[size=1][color=#FFFF99] [/color][/size]
 
@@ -1485,11 +1528,11 @@
 				[/row]
 			[/responsive]
 
+			[anchor=Irelia]
 			[responsive]
 				[row]
 					[col width="100%"]
 						[spoiler=Irelia]
-            [anchor=Irelia]
 						[size=5][color=#FFD700][b]Irelia[/b][/color][/size]
 						[size=1][color=#FFFF99] [/color][/size]
 
@@ -1561,11 +1604,11 @@
 				[/row]
 			[/responsive]
 
+			[anchor=Jayce]
 			[responsive]
 				[row]
 					[col width="100%"]
 						[spoiler=Jayce]
-            [anchor=Jayce]
 						[size=5][color=#FFD700][b]Jayce[/b][/color][/size]
 						[size=1][color=#FFFF99] [/color][/size]
 
@@ -1637,11 +1680,11 @@
 				[/row]
 			[/responsive]
 
+			[anchor="Kai'sa"]
 			[responsive]
 				[row]
 					[col width="100%"]
 						[spoiler="Kai'sa"]
-            [anchor="Kai'sa"]
 						[size=5][color=#FFD700][b]Kai'Sa[/b][/color][/size]
 						[size=1][color=#FFFF99] [/color][/size]
 
@@ -1713,11 +1756,11 @@
 				[/row]
 			[/responsive]
 
+			[anchor=Karma]
 			[responsive]
 				[row]
 					[col width="100%"]
 						[spoiler=Karma]
-            [anchor=Karma]
 						[size=5][color=#FFD700][b]Karma[/b][/color][/size]
 						[size=1][color=#FFFF99] [/color][/size]
 
@@ -1789,11 +1832,11 @@
 				[/row]
 			[/responsive]
 
+			[anchor=Kassadin]
 			[responsive]
 				[row]
 					[col width="100%"]
 						[spoiler=Kassadin]
-            [anchor=Kassadin]
 						[size=5][color=#FFD700][b]Kassadin[/b][/color][/size]
 						[size=1][color=#FFFF99] [/color][/size]
 
@@ -1865,11 +1908,11 @@
 				[/row]
 			[/responsive]
 
+			[anchor=Katarina]
 			[responsive]
 				[row]
 					[col width="100%"]
 						[spoiler=Katarina]
-            [anchor=Katarina]
 						[size=5][color=#FFD700][b]Katarina[/b][/color][/size]
 						[size=1][color=#FFFF99] [/color][/size]
 
@@ -1941,11 +1984,11 @@
 				[/row]
 			[/responsive]
 
+			[anchor=Kayle]
 			[responsive]
 				[row]
 					[col width="100%"]
 						[spoiler=Kayle]
-            [anchor=Kayle]
 						[size=5][color=#FFD700][b]Kayle[/b][/color][/size]
 						[size=1][color=#FFFF99] [/color][/size]
 
@@ -2017,11 +2060,11 @@
 				[/row]
 			[/responsive]
 
+			[anchor=LeBlanc]
 			[responsive]
 				[row]
 					[col width="100%"]
 						[spoiler=LeBlanc]
-            [anchor=LeBlanc]
 						[size=5][color=#FFD700][b]LeBlanc[/b][/color][/size]
 						[size=1][color=#FFFF99] [/color][/size]
 
@@ -2093,11 +2136,11 @@
 				[/row]
 			[/responsive]
 
+			[anchor=Lissandra]
 			[responsive]
 				[row]
 					[col width="100%"]
 						[spoiler=Lissandra]
-            [anchor=Lissandra]
 						[size=5][color=#FFD700][b]Lissandra[/b][/color][/size]
 						[size=1][color=#FFFF99] [/color][/size]
 
@@ -2169,11 +2212,11 @@
 				[/row]
 			[/responsive]
 
+			[anchor=Lucian]
 			[responsive]
 				[row]
 					[col width="100%"]
 						[spoiler=Lucian]
-            [anchor=Lucian]
 						[size=5][color=#FFD700][b]Lucian[/b][/color][/size]
 						[size=1][color=#FFFF99] [/color][/size]
 
@@ -2245,11 +2288,11 @@
 				[/row]
 			[/responsive]
 
+			[anchor=Lux]
 			[responsive]
 				[row]
 					[col width="100%"]
 						[spoiler=Lux]
-            [anchor=Lux]
 						[size=5][color=#FFD700][b]Lux[/b][/color][/size]
 						[size=1][color=#FFFF99] [/color][/size]
 
@@ -2321,11 +2364,11 @@
 				[/row]
 			[/responsive]
 
+			[anchor=Malphite]
 			[responsive]
 				[row]
 					[col width="100%"]
 						[spoiler=Malphite]
-            [anchor=Malphite]
 						[size=5][color=#FFD700][b]Malphite[/b][/color][/size]
 						[size=1][color=#FFFF99] [/color][/size]
 
@@ -2397,11 +2440,11 @@
 				[/row]
 			[/responsive]
 
+			[anchor=Malzahar]
 			[responsive]
 				[row]
 					[col width="100%"]
 						[spoiler=Malzahar]
-            [anchor=Malzahar]
 						[size=5][color=#FFD700][b]Malzahar[/b][/color][/size]
 						[size=1][color=#FFFF99] [/color][/size]
 
@@ -2473,11 +2516,11 @@
 				[/row]
 			[/responsive]
 
+			[anchor=Morgana]
 			[responsive]
 				[row]
 					[col width="100%"]
 						[spoiler=Morgana]
-            [anchor=Morgana]
 						[size=5][color=#FFD700][b]Morgana[/b][/color][/size]
 						[size=1][color=#FFFF99] [/color][/size]
 
@@ -2549,11 +2592,11 @@
 				[/row]
 			[/responsive]
 
+			[anchor=Naafiri]
 			[responsive]
 				[row]
 					[col width="100%"]
 						[spoiler=Naafiri]
-            [anchor=Naafiri]
 						[size=5][color=#FFD700][b]Naafiri[/b][/color][/size]
 						[size=1][color=#FFFF99] [/color][/size]
 
@@ -2625,11 +2668,11 @@
 				[/row]
 			[/responsive]
 
+			[anchor=Neeko]
 			[responsive]
 				[row]
 					[col width="100%"]
 						[spoiler=Neeko]
-            [anchor=Neeko]
 						[size=5][color=#FFD700][b]Neeko[/b][/color][/size]
 						[size=1][color=#FFFF99] [/color][/size]
 
@@ -2701,11 +2744,11 @@
 				[/row]
 			[/responsive]
 
+			[anchor=Orianna]
 			[responsive]
 				[row]
 					[col width="100%"]
 						[spoiler=Orianna]
-            [anchor=Orianna]
 						[size=5][color=#FFD700][b]Orianna[/b][/color][/size]
 						[size=1][color=#FFFF99] [/color][/size]
 
@@ -2777,11 +2820,11 @@
 				[/row]
 			[/responsive]
 
+			[anchor=Pantheon]
 			[responsive]
 				[row]
 					[col width="100%"]
 						[spoiler=Pantheon]
-            [anchor=Pantheon]
 						[size=5][color=#FFD700][b]Pantheon[/b][/color][/size]
 						[size=1][color=#FFFF99] [/color][/size]
 
@@ -2853,11 +2896,11 @@
 				[/row]
 			[/responsive]
 
+			[anchor=Qiyana]
 			[responsive]
 				[row]
 					[col width="100%"]
 						[spoiler=Qiyana]
-            [anchor=Qiyana]
 						[size=5][color=#FFD700][b]Qiyana[/b][/color][/size]
 						[size=1][color=#FFFF99] [/color][/size]
 
@@ -2929,11 +2972,11 @@
 				[/row]
 			[/responsive]
 
+			[anchor=Rumble]
 			[responsive]
 				[row]
 					[col width="100%"]
 						[spoiler=Rumble]
-            [anchor=Rumble]
 						[size=5][color=#FFD700][b]Rumble[/b][/color][/size]
 						[size=1][color=#FFFF99] [/color][/size]
 
@@ -3005,11 +3048,11 @@
 				[/row]
 			[/responsive]
 
+			[anchor=Ryze]
 			[responsive]
 				[row]
 					[col width="100%"]
 						[spoiler=Ryze]
-            [anchor=Ryze]
 						[size=5][color=#FFD700][b]Ryze[/b][/color][/size]
 						[size=1][color=#FFFF99] [/color][/size]
 
@@ -3081,11 +3124,11 @@
 				[/row]
 			[/responsive]
 
+			[anchor=Sylas]
 			[responsive]
 				[row]
 					[col width="100%"]
 						[spoiler=Sylas]
-            			[anchor=Sylas]
 						[size=5][color=#FFD700][b]Sylas[/b][/color][/size]
 						[size=1][color=#FFFF99] [/color][/size]
 
@@ -3155,13 +3198,55 @@
 						[/spoiler]
 					[/col]
 				[/row]
+			[/responsive] [/color][/size]
+
+												[responsive]
+													[row]
+														[col width="50%" min-width="120px"]
+															[size=4][color=#FFFF99][b]Summoners[/b][/color][/size]
+															[size=1][color=#FFFF99] [/color][/size]
+															[icon=flash size=32] [icon=teleport size=32]
+														[/col]
+														
+														[col width="50%" min-width="200px"]
+															[size=4][color=#FFFF99][b]Recommended Build[/b][/color][/size]
+															[size=1][color=#FFFF99] [/color][/size]
+															[icon=sorcerer's shoes size=35] [icon=blackfire torch size=35] [icon=liandry's torment size=35] [icon=rabadon's deathcap size=35] [icon=void staff size=35] [icon=zhonya's hourglass size=35]
+														[/col]
+													[/row]
+												[/responsive]
+											[/col]
+
+											[col width="25%" min-width="80px"]
+												[center][icon=classic ryze size=125][/center]
+											[/col]
+										[/row]
+									[/responsive]
+								[/col]
+							[/row]
+						[/responsive]
+
+						[size=2][color=#FFFF99] [/color][/size]
+
+						[table bgcolor="#654321" border="3px solid #FF8C00" border-radius="8px" cellpadding="0" cellspacing="0" width="100%"]
+							[tr]
+								[td padding="15px 12px"]
+									[size=3][color=#FFFF99][b]Strategy[/b][/color][/size]
+									[size=1][color=#FFFF99] [/color][/size]
+									[color=#FFFF99]Ryze struggles from being a "battle mage" that has some decent burst. Even if he does get in range to root you, he cannot kill you. Most Ryze players will focus on shoving the wave. You can poke him and shove the wave simultaneously with your spells. Be careful of him roaming with his ultimate. Your W can reflect both his Spell Flux and his Overload. Max E in this lane.[/color]
+								[/td]
+							[/tr]
+						[/table]
+						[/spoiler]
+					[/col]
+				[/row]
 			[/responsive]
 
+			[anchor=Smolder]
 			[responsive]
 				[row]
 					[col width="100%"]
 						[spoiler=Smolder]
-            [anchor=Smolder]
 						[size=5][color=#FFD700][b]Smolder[/b][/color][/size]
 						[size=1][color=#FFFF99] [/color][/size]
 
@@ -3233,11 +3318,11 @@
 				[/row]
 			[/responsive]
 
+			[anchor=Swain]
 			[responsive]
 				[row]
 					[col width="100%"]
 						[spoiler=Swain]
-            [anchor=Swain]
 						[size=5][color=#FFD700][b]Swain[/b][/color][/size]
 						[size=1][color=#FFFF99] [/color][/size]
 
@@ -3309,11 +3394,11 @@
 				[/row]
 			[/responsive]
 
+			[anchor=Sylas]
 			[responsive]
 				[row]
 					[col width="100%"]
 						[spoiler=Sylas]
-            [anchor=Sylas]
 						[size=5][color=#FFD700][b]Sylas[/b][/color][/size]
 						[size=1][color=#FFFF99] [/color][/size]
 
@@ -3385,11 +3470,11 @@
 				[/row]
 			[/responsive]
 
+			[anchor=Syndra]
 			[responsive]
 				[row]
 					[col width="100%"]
 						[spoiler=Syndra]
-            [anchor=Syndra]
 						[size=5][color=#FFD700][b]Syndra[/b][/color][/size]
 						[size=1][color=#FFFF99] [/color][/size]
 
@@ -3461,11 +3546,11 @@
 				[/row]
 			[/responsive]
 
+			[anchor=Taliyah]
 			[responsive]
 				[row]
 					[col width="100%"]
 						[spoiler=Taliyah]
-            [anchor=Taliyah]
 						[size=5][color=#FFD700][b]Taliyah[/b][/color][/size]
 						[size=1][color=#FFFF99] [/color][/size]
 
@@ -3537,11 +3622,11 @@
 				[/row]
 			[/responsive]
 
+			[anchor=Talon]
 			[responsive]
 				[row]
 					[col width="100%"]
 						[spoiler=Talon]
-            [anchor=Talon]
 						[size=5][color=#FFD700][b]Talon[/b][/color][/size]
 						[size=1][color=#FFFF99] [/color][/size]
 
@@ -3613,11 +3698,11 @@
 				[/row]
 			[/responsive]
 
+			[anchor=Tristana]
 			[responsive]
 				[row]
 					[col width="100%"]
 						[spoiler=Tristana]
-            [anchor=Tristana]
 						[size=5][color=#FFD700][b]Tristana[/b][/color][/size]
 						[size=1][color=#FFFF99] [/color][/size]
 
@@ -3689,11 +3774,11 @@
 				[/row]
 			[/responsive]
 
+			[anchor=Tryndamere]
 			[responsive]
 				[row]
 					[col width="100%"]
 						[spoiler=Tryndamere]
-            [anchor=Tryndamere]
 						[size=5][color=#FFD700][b]Tryndamere[/b][/color][/size]
 						[size=1][color=#FFFF99] [/color][/size]
 
@@ -3763,11 +3848,11 @@
 				[/row]
 			[/responsive]
 
+			[anchor="Twisted Fate"]
 			[responsive]
 				[row]
 					[col width="100%"]
 						[spoiler="Twisted Fate"]
-            [anchor="Twisted Fate"]
 						[size=5][color=#FFD700][b]Twisted Fate[/b][/color][/size]
 						[size=1][color=#FFFF99] [/color][/size]
 
@@ -3839,11 +3924,11 @@
 				[/row]
 			[/responsive]
 
+			[anchor=Veigar]
 			[responsive]
 				[row]
 					[col width="100%"]
 						[spoiler=Veigar]
-            [anchor=Veigar]
 						[size=5][color=#FFD700][b]Veigar[/b][/color][/size]
 						[size=1][color=#FFFF99] [/color][/size]
 
@@ -3915,11 +4000,11 @@
 				[/row]
 			[/responsive]
 
+			[anchor="Vel'Koz"]
 			[responsive]
 				[row]
 					[col width="100%"]
 						[spoiler="Vel'Koz"]
-            [anchor="Vel'Koz"]
 						[size=5][color=#FFD700][b]Vel'Koz[/b][/color][/size]
 						[size=1][color=#FFFF99] [/color][/size]
 
@@ -3991,11 +4076,11 @@
 				[/row]
 			[/responsive]
 
+			[anchor=Vex]
 			[responsive]
 				[row]
 					[col width="100%"]
 						[spoiler=Vex]
-            [anchor=Vex]
 						[size=5][color=#FFD700][b]Vex[/b][/color][/size]
 						[size=1][color=#FFFF99] [/color][/size]
 
@@ -4067,11 +4152,11 @@
 				[/row]
 			[/responsive]
 
+			[anchor=Viktor]
 			[responsive]
 				[row]
 					[col width="100%"]
 						[spoiler=Viktor]
-            [anchor=Viktor]
 						[size=5][color=#FFD700][b]Viktor[/b][/color][/size]
 						[size=1][color=#FFFF99] [/color][/size]
 
@@ -4142,11 +4227,31 @@
 					[/col]
 				[/row]
 			[/responsive]
+"""
 
-		[/td]
-	[/tr]
-[/table]
-
-[goto="Table of Contents"]Go to Top[/goto]
-
-[center][size=5][color=#FF8C00][b]═══════════════════════════════════════════════════[/b][/color][/size][/center]
+if __name__ == "__main__":
+    if bbcode_input.strip():
+        print("Processing BBCode content...")
+        fixed_content = fix_all_anchors(bbcode_input)
+        
+        print("="*50)
+        print("FIXED BBCODE OUTPUT:")
+        print("="*50)
+        print(fixed_content)
+        print("="*50)
+        
+        # Optionally save to file
+        with open("fixed_matchups.txt", "w", encoding="utf-8") as f:
+            f.write(fixed_content)
+        print("Output also saved to 'fixed_matchups.txt'")
+    else:
+        print("Please paste your BBCode content between the triple quotes in bbcode_input")
+        print("\nExample of what to paste:")
+        print("Content that starts with something like:")
+        print("[anchor=Ahri]")
+        print("[responsive]")
+        print("    [row]")
+        print("        [col width=\"100%\"]")
+        print("            [spoiler=Ahri]")
+        print("            ...")
+        print("\nAnd includes ALL your champions until the end of the content.")
