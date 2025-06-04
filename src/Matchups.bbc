@@ -8,7 +8,15 @@
 
 	[tr]
 		[td padding="20px 15px"]
-			
+			[center]
+							[table bgcolor="#8B4513" border="2px solid #FF8C00" border-radius="8px" cellpadding="0" cellspacing="0" width="200px" height="45px"]
+								[tr]
+									[td align="center"]
+										[goto="summary"][size=3][color=#FFD700][b]Skip to Summary[/b][/color][/size][/goto]
+									[/td]
+								[/tr]
+							[/table]
+						[/center]
 [responsive]
 	[row]
 		[col width="100%"]
@@ -19,15 +27,7 @@
 						[size=1][color=#FFFF99] [/color][/size]
 						
 						// View Summary Button
-						[center]
-							[table bgcolor="#8B4513" border="2px solid #FF8C00" border-radius="8px" cellpadding="0" cellspacing="0" width="200px" height="45px"]
-								[tr]
-									[td align="center"]
-										[goto="summary"][size=3][color=#FFD700][b]Skip to Summary[/b][/color][/size][/goto]
-									[/td]
-								[/tr]
-							[/table]
-						[/center]
+						
 						
 						[size=1][color=#FFFF99] [/color][/size]
 						
