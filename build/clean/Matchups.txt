@@ -104,6 +104,7 @@
 [/row]
 [/responsive]
 
+[center][size=5][color=#FF8C00][b]═══════════════════════════════════════════════════[/b][/color][/size][/center]
 [size=2][color=#FFFF99] [/color][/size]
 
 [table bgcolor="#654321" border="3px solid #FF8C00" border-radius="8px" cellpadding="0" cellspacing="0" width="100%" max-width="660px"]
