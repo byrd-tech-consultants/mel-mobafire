@@ -4112,7 +4112,7 @@
 
 [table height="10px"]
 [/table]
-[center][size=5][color=#FF8C00][b]═══════════════════════════════════════════════════[/b][/color][/size][/center]
+
 
 [size=2][color=#FFFF99] [/color][/size]
 
@@ -4127,6 +4127,7 @@
 [/table]
 [/col]
 [/row]
+[center][size=5][color=#FF8C00][b]═══════════════════════════════════════════════════[/b][/color][/size][/center]
 [/responsive]
 
 [responsive]
@@ -4189,7 +4190,6 @@
 
 [table height="10px"]
 [/table]
-[center][size=5][color=#FF8C00][b]═══════════════════════════════════════════════════[/b][/color][/size][/center]
 
 [size=2][color=#FFFF99] [/color][/size]
 
@@ -4204,6 +4204,7 @@
 [/table]
 [/col]
 [/row]
+[center][size=5][color=#FF8C00][b]═══════════════════════════════════════════════════[/b][/color][/size][/center]
 [/responsive]
 
 [responsive]
@@ -4266,7 +4267,7 @@
 
 [table height="10px"]
 [/table]
-[center][size=5][color=#FF8C00][b]═══════════════════════════════════════════════════[/b][/color][/size][/center]
+
 
 [size=2][color=#FFFF99] [/color][/size]
 
@@ -4281,6 +4282,7 @@
 [/table]
 [/col]
 [/row]
+[center][size=5][color=#FF8C00][b]═══════════════════════════════════════════════════[/b][/color][/size][/center]
 [/responsive]
 
 [responsive]
@@ -4343,7 +4345,7 @@
 
 [table height="10px"]
 [/table]
-[center][size=5][color=#FF8C00][b]═══════════════════════════════════════════════════[/b][/color][/size][/center]
+
 
 [size=2][color=#FFFF99] [/color][/size]
 
@@ -4358,6 +4360,7 @@
 [/table]
 [/col]
 [/row]
+[center][size=5][color=#FF8C00][b]═══════════════════════════════════════════════════[/b][/color][/size][/center]
 [/responsive]
 
 
@@ -4421,7 +4424,7 @@
 
 [table height="10px"]
 [/table]
-[center][size=5][color=#FF8C00][b]═══════════════════════════════════════════════════[/b][/color][/size][/center]
+
 
 [size=2][color=#FFFF99] [/color][/size]
 
@@ -4436,6 +4439,7 @@
 [/table]
 [/col]
 [/row]
+[center][size=5][color=#FF8C00][b]═══════════════════════════════════════════════════[/b][/color][/size][/center]
 [/responsive]
 
 [responsive]
@@ -4498,7 +4502,7 @@
 
 [table height="10px"]
 [/table]
-[center][size=5][color=#FF8C00][b]═══════════════════════════════════════════════════[/b][/color][/size][/center]
+
 
 [size=2][color=#FFFF99] [/color][/size]
 
@@ -4513,84 +4517,9 @@
 [/table]
 [/col]
 [/row]
-[/responsive]
-
-[responsive]
-[row]
-[col width="100%"]
-[anchor=Zed]
-[size=5][color=#FFD700][b]Zed[/b][/color][/size] [size=1][color=#FFFF99] [/color][/size] [anchor=Zed]
-
-[responsive]
-[row]
-[col width="100%" min-width="280px"]
-[responsive]
-[row align-items="flex-start"]
-[col width="75%" min-width="220px"]
-[size=4][color=#FFFF99][b]Matchup Difficulty[/b][/color][/size]
-[size=1][color=#FFFF99] [/color][/size]
-
-[table border="2px solid #FF8C00" border-radius="8px" cellpadding="0" cellspacing="0" width="100%" style="max-width: 250px; min-width: 180px; border-collapse: collapse;"]
-[tr]
-[td bgcolor="#00ff00" width="10%" height="20px" style="border: 0;"][/td]
-[td bgcolor="#33cc00" width="10%" height="20px" style="border: 0;"][/td]
-[td bgcolor="#66aa00" width="10%" height="20px" style="border: 0;"][/td]
-[td bgcolor="#99aa00" width="10%" height="20px" style="border: 0;"][/td]
-[td bgcolor="#ccaa00" width="10%" height="20px" style="border: 0;"][/td]
-[td bgcolor="#ff6600" width="10%" height="20px" style="border: 0;"][/td]
-[td bgcolor="#ff3300" width="10%" height="20px" style="border: 0;"][/td]
-[td bgcolor="#ff0000" width="10%" height="20px" style="border: 0;"][/td]
-[td bgcolor="#cc0000" width="10%" height="20px" style="border: 0;"][/td]
-[td bgcolor="#333333" width="10%" height="20px" style="border: 0;"][/td]
-[/tr]
-[/table]
-
-[size=2][color=#FFFF99] [/color][/size]
-
-[responsive]
-[row]
-[col width="50%" min-width="120px"]
-[size=4][color=#FFFF99][b]Summoners[/b][/color][/size]
-[size=1][color=#FFFF99] [/color][/size]
-[icon=flash size=32] [icon=exhaust size=32]
-[/col]
-
-[col width="50%" min-width="200px"]
-[size=4][color=#FFFF99][b]Recommended Build[/b][/color][/size]
-[size=1][color=#FFFF99] [/color][/size]
-[icon=mercury's treads size=35] [icon=blackfire torch size=35] [icon=zhonya's hourglass size=35] [icon=liandry's torment size=35] [icon=rabadon's deathcap size=35] [icon=void staff size=35]
-[/col]
-[/row]
-[/responsive]
-[/col]
-
-[col width="25%" min-width="80px"]
-[center][icon=classic zed size=125][/center]
-[/col]
-[/row]
-[/responsive]
-[/col]
-[/row]
-[/responsive]
-
-[table height="10px"]
-[/table]
 [center][size=5][color=#FF8C00][b]═══════════════════════════════════════════════════[/b][/color][/size][/center]
-
-[size=2][color=#FFFF99] [/color][/size]
-
-[table bgcolor="#654321" border="3px solid #FF8C00" border-radius="8px" cellpadding="0" cellspacing="0" width="100%"]
-[tr]
-[td padding="15px 12px"]
-[size=3][color=#FFFF99][b]Strategy[/b][/color][/size]
-[size=1][color=#FFFF99] [/color][/size]
-[color=#FFFF99][b]Note: Strategy description not provided in source material. Please add Zed matchup strategy here.[/b][/color]
-[/td]
-[/tr]
-[/table]
-[/col]
-[/row]
 [/responsive]
+
 		[/td]
 	[/tr]
 [/table]
