@@ -8,16 +8,6 @@
 
 [tr]
 [td padding="20px 15px"]
-
-[responsive]
-[row]
-[col width="100%"]
-[table bgcolor="#654321" border="3px solid #FF8C00" border-radius="8px" cellpadding="0" cellspacing="0" width="100%" max-width="660px"]
-[tr]
-[td padding="20px 15px"]
-[center][size=4][color=#FFD700][b]Champions Table of Contents[/b][/color][/size][/center]
-[size=1][color=#FFFF99] [/color][/size]
-
 [center]
 [table bgcolor="#8B4513" border="2px solid #FF8C00" border-radius="8px" cellpadding="0" cellspacing="0" width="200px" height="45px"]
 [tr]
@@ -27,7 +17,14 @@
 [/tr]
 [/table]
 [/center]
-
+[size=1][color=#FFFF99] [/color][/size]
+[responsive]
+[row]
+[col width="100%"]
+[table bgcolor="#654321" border="3px solid #FF8C00" border-radius="8px" cellpadding="0" cellspacing="0" width="100%" max-width="660px"]
+[tr]
+[td padding="20px 15px"]
+[center][size=4][color=#FFD700][b]Champions Table of Contents[/b][/color][/size][/center]
 [size=1][color=#FFFF99] [/color][/size]
 
 [center][size=3][color=#FF8C00][b]Champions[/b][/color][/size][/center]
