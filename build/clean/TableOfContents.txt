@@ -203,4 +203,14 @@
 [/tr]
 [/table]
 
+[center]
+[table bgcolor="#654321" border="2px solid #FF8C00" border-radius="6px" cellpadding="8" cellspacing="0" width="150px"]
+[tr]
+[td align="center"]
+[goto="Table of Contents"][color=#FFD700][b]Go to Top[/b][/color][/goto]
+[/td]
+[/tr]
+[/table]
+[/center]
+
 [center][size=5][color=#FF8C00][b]═══════════════════════════════════════════════════[/b][/color][/size][/center]
